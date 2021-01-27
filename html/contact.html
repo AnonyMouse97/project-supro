@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/home/logo_supro.svg">
+    <link rel="stylesheet" type="text/css" href="../src/css/style.css">
+    <title>Document</title>
+
+    <style>
+        .mapouter {
+            position: relative;
+            text-align: right;
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+    <style>
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="contact_title">
+        <img src="../img/contact/contact-bg.jpg" alt="background">
+        <div id="contact_title">
+            <h2> Contact </h2>
+        </div>
+        <div id="contact_carou">
+            <ul>
+                <li> Home </li>
+                <li> Contact </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact_form">
+        <form id="contact_form" method="post">
+            <div class="contact_name">
+                <label for="Name"> Name </label>
+                <div>
+                    <input type="text" id="Name" name="Name" required>
+                </div>
+            </div>
+
+            <div class="contact_email">
+                <label for="Email"> Email </label>
+                <div>
+                    <input type="email" id="Email" name="Email" required>
+                </div>
+            </div>
+
+            <div class="contact_message">
+                <label for="Message"> Your message </label>
+                <div>
+                    <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+        </form>
+
+        <div id="contact_address">
+            <ul class="contact_media">
+                <li> <img src="../img/contact/face.png" alt="facebook"> </li>
+                <li> <img src="../img/contact/twi.png" alt="twitter"> </li>
+                <li> <img src="../img/contact/goo.png" alt="google"> </li>
+                <li> <img src="../img/contact/link.png" alt="linkedin"> </li>
+                <li> <img src="../img/contact/insta.png" alt="instagram"> </li>
+            </ul>
+
+            <h5> Our Office </h5>
+            <p> 15 St Margarets Lane New York, NY <br> 10033</p>
+
+            <h5> Get in Touch </h5>
+            <h6> PHONE NUMBER </h6>
+            <p> 631-679-6357 </p>
+
+            <h6> EMAIL </h6>
+            <p> supro@example.com </p>
+        </div>
+    </section>
+
+    <section class="contact_stores">
+        <div id="contact_london">
+            <h2> Store in London </h2>
+            <h6> LOCATION </h6>
+            <p> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+            <h6> PHONE NUMBER </h6>
+            <p> 077 6941 6241 </p>
+            <h6> EMAIL </h6>
+            <p> suprolondon@example.com </p>
+        </div>
+        <div id="contact_sydney">
+            <h2> Store in Sydney </h2>
+            <h6> LOCATION </h6>
+            <p> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+            <h6> PHONE NUMBER </h6>
+            <p> 077 6941 6241 </p>
+            <h6> EMAIL </h6>
+            <p> suprosydney@example.com </p>
+        </div>
+        <div id="contact_hamburg">
+            <h2> Store in Hamburg </h2>
+            <h6> LOCATION </h6>
+            <p> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+            <h6> PHONE NUMBER </h6>
+            <p> 077 6941 6241 </p>
+            <h6> EMAIL </h6>
+            <p> hamburg@example.com </p>
+        </div>
+    </section>
+
+    <section class="contact_map">
+        <h2 class="hidden"> Map </h2>
+        <div class="gmap_canvas">
+            <iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=Karl-Marx-Stra%C3%9Fe%20170,%2012043%20Berlin,%20Allemagne&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+    </section>
+</body>
+
+</html>
