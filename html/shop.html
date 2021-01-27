@@ -13,31 +13,36 @@
 	<main>
 
 		<section>
-			<h1>Shop</h1>
-			<ul>
-				<li>
-					<a href="../index.html">Home</a>
-				</li>
-				<li>
-					<a href="#">Shop</a>
-				</li>
-			</ul>
+			<div class="shop_header">
+				<div class="shop_header_title">
+					<h1>Shop</h1>
+					<ul>
+						<li>
+							<a href="../index.html">Home</a>
+						</li>
+						<li>
+							<a href="#">Shop</a>
+						</li>
+					</ul>
+				</div>
 
-			<p>
-				25 products found
-			</p>
-			<a href="#">Filter</a>
+				<div class="shop_header_right">
+					<p>
+						25 products found
+					</p>
+					<a href="#">Filter</a>
+					<p>
+						Sort by
+					</p>
+					<a href="#">Default</a>
 
-			<p>
-				Sort by
-			</p>
-			<a href="#">Default</a>
-
-			<a href="#">"Grid"</a>
-			<a href="#">"Cols"</a>
+					<a href="#">"Grid"</a>
+					<a href="#">"Cols"</a>
+				</div>
+			</div>
 
 
-			<div>
+			<div class="shop_products">
 				<article class="shop_item">
 					<a href="product.html">
 						<img src="../img/shop/1.jpg" alt="">
@@ -47,8 +52,6 @@
 						<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
 					</div>
 					<p class="price">£ 9.90</p>
-
-
 				</article>
 
 				<article class="shop_item">
@@ -172,12 +175,11 @@
 					</div>
 					<p class="price">£ 89.90</p>
 				</article>
-
-				<a href="#"> Discover More </a>
 			</div>
+			<a href="#"> Discover More </a>
 		</section>
 
-		<section class="aside">
+		<section class="shop_aside">
 			<h2 class="hidden">Shop - Aside</h2>
 			<article class="active_filters">
 				<h2>Active filters</h2>
@@ -187,7 +189,7 @@
 					<li>&#10005; Remove all filter</li>
 				</ul>
 			</article>
-			<article class="categories">
+			<article class="shop_categories">
 				<h2>Categories</h2>
 				<ul>
 					<li>Bags</li>
@@ -201,24 +203,24 @@
 					<li>Women</li>
 				</ul>
 			</article>
-			<article class="filter_price">
+			<article class="shop_price">
 				<h2>Filter price</h2>
 				<form action="shop.html" method="get">
-					<input type="range" name="price" id="price" min="0" max="100">
-					<label for="price">Price £0 - £100</label>
+					<input type="range" name="shop_price" id="shop_price" min="0" max="100">
+					<label for="shop_price">Price £0 - £100</label>
 
-					<label for="Black">Black</label>
-					<input type="checkbox" name="Black" id="Black">
-					<label for="Blue">Blue</label>
-					<input type="checkbox" name="Blue" id="Blue">
-					<label for="Gold">Gold</label>
-					<input type="checkbox" name="Gold" id="Gold">
-					<label for="Nude">Nude</label>
-					<input type="checkbox" name="Nude" id="Nude">
-					<label for="Orange">Orange</label>
-					<input type="checkbox" name="Orange" id="Orange">
-					<label for="Red">Red</label>
-					<input type="checkbox" name="Red" id="Red">
+					<label for="shop_Black"> <div class="colorlabel black"></div> Black</label>
+					<input type="checkbox" name="shop_Black" id="shop_Black">
+					<label for="shop_Blue"><div class="colorlabel blue"></div> Blue</label>
+					<input type="checkbox" name="shop_Blue" id="shop_Blue">
+					<label for="shop_Gold"> <div class="colorlabel gold"></div> Gold</label>
+					<input type="checkbox" name="shop_Gold" id="shop_Gold">
+					<label for="shop_Nude"> <div class="colorlabel nude"></div> Nude</label>
+					<input type="checkbox" name="shop_Nude" id="shop_Nude">
+					<label for="shop_Orange"> <div class="colorlabel orange"></div> Orange</label>
+					<input type="checkbox" name="shop_Orange" id="shop_Orange">
+					<label for="shop_Red"> <div class="colorlabel red"></div> Red</label>
+					<input type="checkbox" name="shop_Red" id="shop_Red">
 
 					<ul>
 						<li><a href="#">L</a></li>
@@ -230,9 +232,9 @@
 				</form>
 			</article>
 
-			<article class="products">
+			<article class="shop_aside_products">
 				<h2>Products</h2>
-				<div class="small_products">
+				<div class="shop_aside_products_small">
 					<article class="shop_item">
 						<a href="product.html">
 							<img src="../img/shop/10.jpg" alt="">
