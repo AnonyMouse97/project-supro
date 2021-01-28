@@ -101,34 +101,25 @@
         </div>
         <div id="contact_carou">
             <ul>
-                <li> Home </li>
-                <li> Contact </li>
+                <li> <a href="../index.html"> Home </a> </li>
+                <li> <a href="#"> Contact </a> </li>
             </ul>
         </div>
     </section>
 
     <section class="contact_form">
         <form id="contact_form" method="post">
-            <div class="contact_name">
+            <div class="contact_firstline">
                 <label for="Name"> Name </label>
-                <div>
-                    <input type="text" id="Name" name="Name" required>
-                </div>
-            </div>
-
-            <div class="contact_email">
+                <input type="text" id="Name" name="Name" required>
                 <label for="Email"> Email </label>
-                <div>
-                    <input type="email" id="Email" name="Email" required>
-                </div>
+                <input type="email" id="Email" name="Email" required>
             </div>
 
-            <div class="contact_message">
-                <label for="Message"> Your message </label>
-                <div>
-                    <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
-                </div>
-            </div>
+
+            <label for="Message"> Your message </label>
+            <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
+            <input type="submit" value="SEND MESSAGE">
         </form>
 
         <div id="contact_address">
@@ -139,46 +130,68 @@
                 <li> <img src="../img/contact_icons/link.png" alt="linkedin"> </li>
                 <li> <img src="../img/contact_icons/insta.png" alt="instagram"> </li>
             </ul>
+            <div>
+                <h3> Our Office </h3>
+                <p> 15 St Margarets Lane New York, NY 10033</p>
+            </div>
 
-            <h5> Our Office </h5>
-            <p> 15 St Margarets Lane New York, NY <br> 10033</p>
+            <div>
+                <h3> Get in Touch </h3>
+                <p class="contact_subtitle"> PHONE NUMBER </p>
+                <p class="contact_text"> 631-679-6357 </p>
 
-            <h5> Get in Touch </h5>
-            <h6> PHONE NUMBER </h6>
-            <p> 631-679-6357 </p>
+                <p class="contact_subtitle"> EMAIL </p>
+                <p class="contact_text"> supro@example.com </p>
+            </div>
 
-            <h6> EMAIL </h6>
-            <p> supro@example.com </p>
         </div>
     </section>
 
     <section class="contact_stores">
         <div id="contact_london">
-            <h2> Store in London </h2>
-            <h6> LOCATION </h6>
-            <p> 16 Iolaire Road, New Abbey, DG2 2SX </p>
-            <h6> PHONE NUMBER </h6>
-            <p> 077 6941 6241 </p>
-            <h6> EMAIL </h6>
-            <p> suprolondon@example.com </p>
+            <h3> Store in London </h3>
+            <div class="contact_london_location">
+                <p class="contact_subtitle"> LOCATION </p>
+                <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+            </div>
+            <div class="contact_london_phone">
+                <p class="contact_subtitle"> PHONE NUMBER </p>
+                <p class="contact_text"> 077 6941 6241 </p>
+            </div>
+            <div class="contact_london_mail">
+                <p class="contact_subtitle"> EMAIL </p>
+                <p class="contact_text"> suprolondon@example.com </p>
+            </div>
         </div>
         <div id="contact_sydney">
-            <h2> Store in Sydney </h2>
-            <h6> LOCATION </h6>
-            <p> 16 Iolaire Road, New Abbey, DG2 2SX </p>
-            <h6> PHONE NUMBER </h6>
-            <p> 077 6941 6241 </p>
-            <h6> EMAIL </h6>
-            <p> suprosydney@example.com </p>
+            <h3> Store in Sydney </h3>
+            <div class="contact_sydney_location">
+                <p class="contact_subtitle"> LOCATION </p>
+                <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+            </div>
+            <div class="contact_sydney_phone">
+                <p class="contact_subtitle"> PHONE NUMBER </p>
+                <p class="contact_text"> 077 6941 6241 </p>
+            </div>
+            <div class="contact_sydney_mail">
+                <p class="contact_subtitle"> EMAIL </p>
+                <p class="contact_text"> suprosydney@example.com </p>
+            </div>
         </div>
         <div id="contact_hamburg">
-            <h2> Store in Hamburg </h2>
-            <h6> LOCATION </h6>
-            <p> 16 Iolaire Road, New Abbey, DG2 2SX </p>
-            <h6> PHONE NUMBER </h6>
-            <p> 077 6941 6241 </p>
-            <h6> EMAIL </h6>
-            <p> hamburg@example.com </p>
+            <h3> Store in Hamburg </h3>
+            <div class="contact_hamburg_location">
+                <p class="contact_subtitle"> LOCATION </p>
+                <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+            </div>
+            <div class="contact_hamburg_phone">
+                <p class="contact_subtitle"> PHONE NUMBER </p>
+                <p class="contact_text"> 077 6941 6241 </p>
+            </div>
+            <div class="contact_hamburg_mail">
+                <p class="contact_subtitle"> EMAIL </p>
+                <p class="contact_text"> hamburg@example.com </p>
+            </div>
         </div>
     </section>
 
