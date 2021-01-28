@@ -1,0 +1,33 @@
+// Import utils
+@import 'utils/reset/_reset.scss';
+@import 'utils/font_import/_font_face.scss';
+
+// Import secondaries
+@import 'secondary/vars/_color.scss';
+
+
+@import 'secondary/mixins/_mixins.scss';
+@import 'secondary/footer/_footer.scss';
+@import 'secondary/header/_header.scss';
+@import 'secondary/shopItems/_shopItems.scss';
+
+// Import Main/mobile
+@import 'main/home/_mobile.scss';
+@import 'main/about/_mobile.scss';
+@import 'main/contact/_mobile.scss';
+@import 'main/product/_mobile.scss';
+@import 'main/shop/_mobile.scss';
+
+// Import Main/tablet
+@import 'main/home/_tablet.scss';
+@import 'main/about/_tablet.scss';
+@import 'main/contact/_tablet.scss';
+@import 'main/product/_tablet.scss';
+@import 'main/shop/_tablet.scss';
+
+// Import Main/desktop
+@import 'main/home/_desktop.scss';
+@import 'main/about/_desktop.scss';
+@import 'main/contact/_desktop.scss';
+@import 'main/product/_desktop.scss';
+@import 'main/shop/_desktop.scss';
