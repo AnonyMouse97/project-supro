@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/home/logo_supro.svg">
+    <link rel="stylesheet" type="text/css" href="../src/css/style.css">
+    <title>Document</title>
+
+    <style>
+        .mapouter {
+            position: relative;
+            text-align: right;
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+    <style>
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <h1 class="hidden">Supro - Webshop</h1>
+            <img src="../img/home/logo_supro.svg" alt="logo_supro" />
+
+            <ul class="header_nav">
+
+                <li>
+                    <a href="html/index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="html/shop.html">Shop</a>
+                </li>
+
+                <li>
+                    <a href="#">Collecion</a>
+                </li>
+
+                <li>
+                    <a href="#">Pages</a>
+                </li>
+
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+
+                <li>
+                    <a href="html/contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <div class="searchbar">
+
+            <input type="search" value="Search Searching..." />
+            <img src="../img/icon_header/loupe.svg" alt="recherche" />
+
+        </div>
+
+
+        <ul class="header_class2">
+
+            <li class="icon_header">
+                <img src="../img/icon_header/profil.png" alt="profil" />
+            </li>
+
+            <li>
+                <img src="../img/icon_header/favoris.svg" alt="favoris" />
+            </li>
+
+            <li class="icon_header">
+                <img src="../img/icon_header/panier.png" alt="panier" />
+            </li>
+
+            <li class="icon_header">
+                <img src="../img/icon_header/liste.svg" alt="options" />
+            </li>
+
+        </ul>
+
+    </header>
+
+    <main>
+        <section class="contact_title">
+            <img src="../img/contact/contact-bg.jpg" alt="background">
+            <div id="contact_title">
+                <h2> Contact </h2>
+            </div>
+            <div id="contact_carou">
+                <ul>
+                    <li> <a href="../index.html"> Home </a> </li>
+                    <li> <a href="#"> Contact </a> </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact_form">
+            <form id="contact_form" method="post">
+                <div class="contact_firstline">
+                    <label for="Name"> Name </label>
+                    <input type="text" id="Name" name="Name" required>
+                    <label for="Email"> Email </label>
+                    <input type="email" id="Email" name="Email" required>
+                </div>
+
+
+                <label for="Message"> Your message </label>
+                <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
+                <input type="submit" value="SEND MESSAGE">
+            </form>
+
+            <div id="contact_address">
+                <ul class="contact_media">
+                    <li> <img src="../img/contact_icons/face.png" alt="facebook"> </li>
+                    <li> <img src="../img/contact_icons/twi.png" alt="twitter"> </li>
+                    <li> <img src="../img/contact_icons/goo.png" alt="google"> </li>
+                    <li> <img src="../img/contact_icons/link.png" alt="linkedin"> </li>
+                    <li> <img src="../img/contact_icons/insta.png" alt="instagram"> </li>
+                </ul>
+                <div>
+                    <h3> Our Office </h3>
+                    <p> 15 St Margarets Lane New York, NY 10033</p>
+                </div>
+
+                <div>
+                    <h3> Get in Touch </h3>
+                    <p class="contact_subtitle"> PHONE NUMBER </p>
+                    <p class="contact_text"> 631-679-6357 </p>
+
+                    <p class="contact_subtitle"> EMAIL </p>
+                    <p class="contact_text"> supro@example.com </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact_stores">
+            <div id="contact_london">
+                <h3> Store in London </h3>
+                <div class="contact_london_location">
+                    <p class="contact_subtitle"> LOCATION </p>
+                    <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+                </div>
+                <div class="contact_london_phone">
+                    <p class="contact_subtitle"> PHONE NUMBER </p>
+                    <p class="contact_text"> 077 6941 6241 </p>
+                </div>
+                <div class="contact_london_mail">
+                    <p class="contact_subtitle"> EMAIL </p>
+                    <p class="contact_text"> suprolondon@example.com </p>
+                </div>
+            </div>
+            <div id="contact_sydney">
+                <h3> Store in Sydney </h3>
+                <div class="contact_sydney_location">
+                    <p class="contact_subtitle"> LOCATION </p>
+                    <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+                </div>
+                <div class="contact_sydney_phone">
+                    <p class="contact_subtitle"> PHONE NUMBER </p>
+                    <p class="contact_text"> 077 6941 6241 </p>
+                </div>
+                <div class="contact_sydney_mail">
+                    <p class="contact_subtitle"> EMAIL </p>
+                    <p class="contact_text"> suprosydney@example.com </p>
+                </div>
+            </div>
+            <div id="contact_hamburg">
+                <h3> Store in Hamburg </h3>
+                <div class="contact_hamburg_location">
+                    <p class="contact_subtitle"> LOCATION </p>
+                    <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+                </div>
+                <div class="contact_hamburg_phone">
+                    <p class="contact_subtitle"> PHONE NUMBER </p>
+                    <p class="contact_text"> 077 6941 6241 </p>
+                </div>
+                <div class="contact_hamburg_mail">
+                    <p class="contact_subtitle"> EMAIL </p>
+                    <p class="contact_text"> hamburg@example.com </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact_map">
+            <h2 class="hidden"> Map </h2>
+            <div class="gmap_canvas">
+                <iframe width="600" height="500" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=Karl-Marx-Stra%C3%9Fe%20170,%2012043%20Berlin,%20Allemagne&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <ul>
+
+            <li>HELP & INFOMATION</li>
+
+            <ul>
+                <li>Track Order</li>
+                <li>Delivery & Returns</li>
+                <li>Premier Delivery</li>
+                <li>FAQs</li>
+            </ul>
+
+
+
+            <li>ABOUT SUPRO</li>
+
+            <ul>
+                <li>About us</li>
+                <li>Careers</li>
+                <li>Corporate</li>
+                <li>Investors</li>
+            </ul>
+
+            <li>ONLINE SHOP</li>
+
+            <ul>
+
+                <li>Shoues</li>
+                <li>Bags</li>
+                <li>Wallets</li>
+                <li>Belts</li>
+
+            </ul>
+
+            <li>LANGUAGE</li>
+
+            <ul>
+                <li><a href="#">English</a></li>
+            </ul>
+
+            <li>CURRENCY</li>
+
+            <ul>
+                <li><a href="#">USD</a></li>
+
+            </ul>
+
+        </ul>
+
+
+        <div class="footer_privacy">
+
+            <div class="footer_privacy_left">
+
+                <img src="../img/home/logo_supro.svg" alt="logosupro">
+                <p>All right reserved</p>
+
+            </div>
+
+            <div class="footer_privacy_right">
+
+                <p>Privacy Popcy</p>
+                <p>Terms of use</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
