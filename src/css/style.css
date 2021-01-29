@@ -68,25 +68,39 @@ table {
 body {
   font-family: "Roboto"; }
 
-.shop_item, .home_item, .product_related_item {
-  width: 150px;
-  overflow: hidden;
-  padding: 15px; }
-  .shop_item img, .home_item img, .product_related_item img {
-    width: 100%;
-    height: 100%; }
-  .shop_item .price, .home_item .price, .product_related_item .price {
-    padding: 10px 0 0 0; }
-  .shop_item a h3, .home_item a h3, .product_related_item a h3 {
-    padding: 10px 0 0 0; }
-  .shop_item .rating, .home_item .rating, .product_related_item .rating {
-    font-size: 1.2em;
-    padding: 10px 0 0 0;
-    color: #f68773; }
+h2 {
+  font-size: 2.5em;
+  font-weight: bold; }
+
+h3 {
+  font-size: 1.5em;
+  font-weight: bold; }
+
+h4 {
+  font-size: 1.2em; }
+
+.hidden {
+  display: none;
+  visibility: hidden; }
+
+a {
+  text-decoration: none;
+  color: #999; }
+
+.hotLinks {
+  padding: 5px 0;
+  border-bottom: 3px solid black;
+  font-weight: bold; }
+
+.price {
+  color: #999; }
 
 .item_label {
-  position: relative;
-  top: 40px;
-  left: 30px; }
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: #f68773; }
 
 /*# sourceMappingURL=style.css.map */
