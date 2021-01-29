@@ -68,6 +68,7 @@ table {
 body {
   font-family: "Roboto"; }
 
+
 h2 {
   font-size: 2.5em;
   font-weight: bold; }
@@ -569,5 +570,8 @@ header {
         font-size: 3em; }
   .shop_header_icons a img {
     padding: 0 10px; } }
+ul {
+  display: flex; }
+
 
 /*# sourceMappingURL=style.css.map */
