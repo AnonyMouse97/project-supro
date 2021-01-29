@@ -16,76 +16,90 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 @font-face {
   font-family: "Roboto";
   src: url("../../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "Roboto";
   src: url("../../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: bold;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "Roboto";
   src: url("../../fonts/Roboto/Roboto-Italic.ttf") format("truetype");
   font-weight: normal;
-  font-style: italic; }
+  font-style: italic;
+}
 
 @font-face {
   font-family: "Roboto";
   src: url("../../fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype");
   font-weight: bold;
-  font-style: italic; }
+  font-style: italic;
+}
 
-.home_mainCollection {
-  background-image: url(../../img/home/sl3-1.jpg); }
-  .home_mainCollection .home_title_left {
-    list-style-type: none;
-    height: 50px;
-    width: 50p;
-    display: flex;
-    justify-content: center; }
-    .home_mainCollection .home_title_left img {
-      height: 20px;
-      width: 20px;
-      opacity: 0.5; }
-  .home_mainCollection .home_title_center {
-    color: white;
-    display: flex;
-    justify-content: center; }
-  .home_mainCollection .home_title_right {
-    display: none; }
+.home_mainCollection .home_title_left {
+  list-style-type: none;
+  height: 50px;
+  width: 50p;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.home_mainCollection .home_title_center {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
 .home_topSellers {
   margin-left: auto;
-  margin-right: auto; }
-
+  margin-right: auto;
+}
 /*# sourceMappingURL=style.css.map */
