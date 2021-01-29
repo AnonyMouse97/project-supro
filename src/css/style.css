@@ -69,6 +69,7 @@ body {
   font-family: "Roboto"; }
 
 
+
 h2 {
   font-size: 2.5em;
   font-weight: bold; }
@@ -572,6 +573,48 @@ header {
     padding: 0 10px; } }
 ul {
   display: flex; }
+footer ul {
+  color: #999;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+  footer ul li:last-child {
+    display: none;
+    visibility: hidden; }
+  footer ul li {
+    margin: 15px; }
+    footer ul li h4 {
+      color: #222; }
+    footer ul li ul {
+      padding: 0 15px 15px 0;
+      color: #999;
+      display: flex;
+      flex-direction: column; }
+      footer ul li ul li {
+        padding-top: 10px;
+        margin: 0; }
+        footer ul li ul li a {
+          display: block; }
+      footer ul li ul li:last-child {
+        display: block;
+        visibility: visible; }
+
+.footer_privacy {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  .footer_privacy .footer_privacy_left {
+    color: #999;
+    display: flex;
+    padding: 20px; }
+  .footer_privacy .footer_privacy_right {
+    color: #999;
+    display: flex; }
+    .footer_privacy .footer_privacy_right p {
+      display: flex;
+      justify-content: space-around; }
+
 
 
 /*# sourceMappingURL=style.css.map */
