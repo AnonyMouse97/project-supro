@@ -65,4 +65,42 @@ table {
   font-weight: bold;
   font-style: italic; }
 
+body {
+  font-family: "Roboto"; }
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bold; }
+
+h3 {
+  font-size: 1.5em;
+  font-weight: bold; }
+
+h4 {
+  font-size: 1.2em; }
+
+.hidden {
+  display: none;
+  visibility: hidden; }
+
+a {
+  text-decoration: none;
+  color: #999; }
+
+.hotLinks {
+  padding: 5px 0;
+  border-bottom: 3px solid black;
+  font-weight: bold; }
+
+.price {
+  color: #999; }
+
+.item_label {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: #f68773; }
+
 /*# sourceMappingURL=style.css.map */
