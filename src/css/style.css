@@ -65,4 +65,12 @@ table {
   font-weight: bold;
   font-style: italic; }
 
+.contact_title {
+  background-image: url("../../../img/contact/contact-bg.jpg");
+  padding-top: 15px;
+  height: 350px; }
+  .contact_title #contact_title {
+    margin: 0 auto;
+    width: 50%; }
+
 /*# sourceMappingURL=style.css.map */

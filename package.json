@@ -18,5 +18,6 @@
   "homepage": "https://github.com/AnonyMouse97/project-supro#readme",
   "dependencies": {
     "node-sass": "^5.0.0"
-  }
+  },
+  "devDependencies": {}
 }
