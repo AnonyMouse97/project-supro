@@ -65,7 +65,7 @@
 	article{
 		margin: 30px 0;
 		h3{
-			padding:20px 0;
+			padding:40px 0;
 		}
 		ul{
 			color: $grey;
@@ -81,12 +81,10 @@
 		// --webkit-- and others needed seems to be fucked up to style a range slider
 		input[type=range]{
 			width: 100%;
-			margin: 10px 0;
-			height: 15px;
-			background-color: transparent;
-			background: $orange;
+			margin: 0 0 20px 0;
 		}
 		.colors_checboxes{
+			margin: 20px 0;
 			display: flex;
 			flex-direction: column;
 			.form_checkbox{
@@ -120,15 +118,36 @@
 					}
 				} 
 			}
-			input[type=checkbox]{
-				border: 1px solid red;
-				background: red;
-				&:focus{
-					border: 1px solid $black;
+		}
+		ul{
+			li{
+				display: inline;
+				a{
+				color: $black;
 				}
 			}
 		}
 		
+	}
+	.shop_aside_products{
+		.shop_aside_products_small{
+			.shop_item{
+				overflow: visible;
+				display: flex;
+				width: 100%;
+				img{
+					height: 100px;
+					width: 100px;
+				}
+				.aside_product_text{
+					margin: 0 0 0 20px;
+				}
+					h3{
+					padding: 0 0 10px 0;
+					font-weight: bold;
+				}
+		}
+	}
 	}
 }
 

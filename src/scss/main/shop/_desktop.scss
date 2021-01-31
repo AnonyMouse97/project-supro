@@ -1,0 +1,31 @@
+main{
+	max-width: 1000px;
+	margin: 100px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+#hidden{
+	visibility: visible;
+	display: inline;
+}
+.shop_header_icons, .shop_header, .shop_header_right{
+	display: flex;
+}
+
+.shop_products{
+	font-size: .8em;
+	.shop_header{
+		.shop_header_title{
+			width: 200px;
+			h3{
+				font-size: 3em;
+			}
+		}
+	}
+}
+
+.shop_header_icons{
+				 a img{
+					padding: 0 10px;
+				}
+			}

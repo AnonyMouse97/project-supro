@@ -172,7 +172,7 @@ a {
   .shop_aside article {
     margin: 30px 0; }
     .shop_aside article h3 {
-      padding: 20px 0; }
+      padding: 40px 0; }
     .shop_aside article ul {
       color: #999; }
       .shop_aside article ul li {
@@ -181,11 +181,9 @@ a {
     color: #999; }
   .shop_aside form input[type=range] {
     width: 100%;
-    margin: 10px 0;
-    height: 15px;
-    background-color: transparent;
-    background: #f68773; }
+    margin: 0 0 20px 0; }
   .shop_aside form .colors_checboxes {
+    margin: 20px 0;
     display: flex;
     flex-direction: column; }
     .shop_aside form .colors_checboxes .form_checkbox {
@@ -211,10 +209,63 @@ a {
           background: #f68773; }
         .shop_aside form .colors_checboxes .form_checkbox .bull.red {
           background: #990100; }
-    .shop_aside form .colors_checboxes input[type=checkbox] {
-      border: 1px solid red;
-      background: red; }
-      .shop_aside form .colors_checboxes input[type=checkbox]:focus {
-        border: 1px solid #222; }
+  .shop_aside form ul li {
+    display: inline; }
+    .shop_aside form ul li a {
+      color: #222; }
+  .shop_aside .shop_aside_products .shop_aside_products_small .shop_item {
+    overflow: visible;
+    display: flex;
+    width: 100%; }
+    .shop_aside .shop_aside_products .shop_aside_products_small .shop_item img {
+      height: 100px;
+      width: 100px; }
+    .shop_aside .shop_aside_products .shop_aside_products_small .shop_item .aside_product_text {
+      margin: 0 0 0 20px; }
+    .shop_aside .shop_aside_products .shop_aside_products_small .shop_item h3 {
+      padding: 0 0 10px 0;
+      font-weight: bold; }
+
+@media (min-width: 480px) {
+  .shop_products .shop_header .shop_subheader .shop_header_right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .shop_products .shop_header .shop_subheader .shop_header_right a {
+      visibility: visible;
+      display: inline-block;
+      padding: 0 15px; }
+      .shop_products .shop_header .shop_subheader .shop_header_right a img {
+        height: 10px;
+        transform: rotate(90deg);
+        padding: 0 30px 0 30px; }
+      .shop_products .shop_header .shop_subheader .shop_header_right a:nth-child(1) {
+        display: none;
+        visibility: hidden; }
+      .shop_products .shop_header .shop_subheader .shop_header_right a:nth-child(2) {
+        font-weight: bold;
+        color: #222; }
+  .shop_aside {
+    width: 50%; } }
+
+@media (min-width: 1025px) {
+  main {
+    max-width: 1000px;
+    margin: 100px;
+    display: flex;
+    flex-direction: row-reverse; }
+  #hidden {
+    visibility: visible;
+    display: inline; }
+  .shop_header_icons, .shop_header, .shop_header_right {
+    display: flex; }
+  .shop_products {
+    font-size: .8em; }
+    .shop_products .shop_header .shop_header_title {
+      width: 200px; }
+      .shop_products .shop_header .shop_header_title h3 {
+        font-size: 3em; }
+  .shop_header_icons a img {
+    padding: 0 10px; } }
 
 /*# sourceMappingURL=style.css.map */
