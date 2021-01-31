@@ -1,0 +1,33 @@
+.shop_item, .product_related_item, .home_item{
+	position: relative;
+	margin: 20px 10px;
+	width: 150px;
+	overflow: hidden;
+	h3{
+		padding: 10px 0;
+		font-size: 1em;
+		font-weight: normal;
+		color: $black;
+	}
+	img{
+		width: 100%;
+	}
+	.rating{
+		font-size: 1.5em;
+		color: $orange;
+	}
+	.rating span:last-child{
+		color: $light_grey;
+	}
+	.price{
+		padding: 10px 0;
+	}
+	.item_label{
+		position: absolute;
+		top: 20px;
+		left: 20px;
+	}
+	.hot{
+		background-color: #ff1c5d ;
+	}
+}

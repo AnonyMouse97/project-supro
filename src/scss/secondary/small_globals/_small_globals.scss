@@ -24,8 +24,9 @@ a{
 }
 .hotLinks{
 	padding: 5px 0;
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid $black;
 	font-weight: bold;
+	color: $black;
 	}
 
 // price tags

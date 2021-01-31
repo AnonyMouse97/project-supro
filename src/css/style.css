@@ -89,8 +89,9 @@ a {
 
 .hotLinks {
   padding: 5px 0;
-  border-bottom: 3px solid black;
-  font-weight: bold; }
+  border-bottom: 3px solid #222;
+  font-weight: bold;
+  color: #222; }
 
 .price {
   color: #999; }
@@ -102,5 +103,118 @@ a {
   font-weight: bold;
   color: white;
   background-color: #f68773; }
+
+.shop_item, .product_related_item, .home_item {
+  position: relative;
+  margin: 20px 10px;
+  width: 150px;
+  overflow: hidden; }
+  .shop_item h3, .product_related_item h3, .home_item h3 {
+    padding: 10px 0;
+    font-size: 1em;
+    font-weight: normal;
+    color: #222; }
+  .shop_item img, .product_related_item img, .home_item img {
+    width: 100%; }
+  .shop_item .rating, .product_related_item .rating, .home_item .rating {
+    font-size: 1.5em;
+    color: #f68773; }
+  .shop_item .rating span:last-child, .product_related_item .rating span:last-child, .home_item .rating span:last-child {
+    color: #DFDFDF; }
+  .shop_item .price, .product_related_item .price, .home_item .price {
+    padding: 10px 0; }
+  .shop_item .item_label, .product_related_item .item_label, .home_item .item_label {
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+  .shop_item .hot, .product_related_item .hot, .home_item .hot {
+    background-color: #ff1c5d; }
+
+.shop_products .shop_header {
+  margin: 60px 20px 20px 20px; }
+  .shop_products .shop_header .shop_header_title h3 {
+    font-size: 2em; }
+  .shop_products .shop_header .shop_header_title ul {
+    padding: 30px 0;
+    color: #999; }
+    .shop_products .shop_header .shop_header_title ul li {
+      display: inline;
+      padding-right: 10px; }
+    .shop_products .shop_header .shop_header_title ul li:last-child a {
+      color: #222; }
+  .shop_products .shop_header .shop_subheader {
+    display: flex;
+    justify-content: space-between; }
+    .shop_products .shop_header .shop_subheader .shop_header_right {
+      color: #999; }
+      .shop_products .shop_header .shop_subheader .shop_header_right span {
+        color: #222; }
+      .shop_products .shop_header .shop_subheader .shop_header_right a {
+        display: none;
+        visibility: hidden; }
+    .shop_products .shop_header .shop_subheader .shop_header_icons a img {
+      height: 15px; }
+    .shop_products .shop_header .shop_subheader .shop_header_icons a:last-child {
+      display: none;
+      visibility: hidden; }
+
+.shop_products .shop_products_layout {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.shop_products .discover_more {
+  text-align: center;
+  margin: 15px 0 25px 0; }
+
+.shop_aside {
+  margin: 0 20px; }
+  .shop_aside article {
+    margin: 30px 0; }
+    .shop_aside article h3 {
+      padding: 20px 0; }
+    .shop_aside article ul {
+      color: #999; }
+      .shop_aside article ul li {
+        padding-bottom: 20px; }
+  .shop_aside form label {
+    color: #999; }
+  .shop_aside form input[type=range] {
+    width: 100%;
+    margin: 10px 0;
+    height: 15px;
+    background-color: transparent;
+    background: #f68773; }
+  .shop_aside form .colors_checboxes {
+    display: flex;
+    flex-direction: column; }
+    .shop_aside form .colors_checboxes .form_checkbox {
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between; }
+      .shop_aside form .colors_checboxes .form_checkbox .bull {
+        display: inline-block;
+        vertical-align: text-top;
+        border-radius: 10px;
+        height: 20px;
+        width: 20px;
+        margin-right: 10px; }
+        .shop_aside form .colors_checboxes .form_checkbox .bull.black {
+          background: #222; }
+        .shop_aside form .colors_checboxes .form_checkbox .bull.blue {
+          background: #70849d; }
+        .shop_aside form .colors_checboxes .form_checkbox .bull.gold {
+          background: #cc9900; }
+        .shop_aside form .colors_checboxes .form_checkbox .bull.nude {
+          background: #cfa58f; }
+        .shop_aside form .colors_checboxes .form_checkbox .bull.orange {
+          background: #f68773; }
+        .shop_aside form .colors_checboxes .form_checkbox .bull.red {
+          background: #990100; }
+    .shop_aside form .colors_checboxes input[type=checkbox] {
+      border: 1px solid red;
+      background: red; }
+      .shop_aside form .colors_checboxes input[type=checkbox]:focus {
+        border: 1px solid #222; }
 
 /*# sourceMappingURL=style.css.map */
