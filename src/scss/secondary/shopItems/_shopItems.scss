@@ -12,13 +12,6 @@
 	img{
 		width: 100%;
 	}
-	.rating{
-		font-size: 1.5em;
-		color: $orange;
-	}
-	.rating span:last-child{
-		color: $light_grey;
-	}
 	.price{
 		padding: 10px 0;
 	}
@@ -30,4 +23,11 @@
 	.hot{
 		background-color: #ff1c5d ;
 	}
+}
+.rating{
+	font-size: 1.5em;
+	color: $orange;
+}
+.rating span:last-child{
+	color: $light_grey;
 }

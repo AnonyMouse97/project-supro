@@ -116,11 +116,6 @@ a {
     color: #222; }
   .shop_item img, .product_related_item img, .home_item img {
     width: 100%; }
-  .shop_item .rating, .product_related_item .rating, .home_item .rating {
-    font-size: 1.5em;
-    color: #f68773; }
-  .shop_item .rating span:last-child, .product_related_item .rating span:last-child, .home_item .rating span:last-child {
-    color: #DFDFDF; }
   .shop_item .price, .product_related_item .price, .home_item .price {
     padding: 10px 0; }
   .shop_item .item_label, .product_related_item .item_label, .home_item .item_label {
@@ -129,6 +124,156 @@ a {
     left: 20px; }
   .shop_item .hot, .product_related_item .hot, .home_item .hot {
     background-color: #ff1c5d; }
+
+.rating {
+  font-size: 1.5em;
+  color: #f68773; }
+
+.rating span:last-child {
+  color: #DFDFDF; }
+
+main {
+  padding: 20px; }
+
+.breadcrumb {
+  line-height: 1.5;
+  margin: 30px 0 60px;
+  display: flex;
+  flex-wrap: wrap; }
+  .breadcrumb li {
+    padding-right: 10px;
+    color: #999; }
+  .breadcrumb li:last-child a {
+    color: #222; }
+
+.product_description_nav_nextprev {
+  visibility: hidden;
+  display: none; }
+
+.product_card_images .product_mainImage {
+  position: relative; }
+  .product_card_images .product_mainImage div {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    align-text: center;
+    display: inline-block;
+    border-radius: 50%; }
+  .product_card_images .product_mainImage img {
+    width: 100%; }
+    .product_card_images .product_mainImage img:last-child {
+      padding: 10px;
+      width: 20px; }
+
+.product_card_images .product_SmallImages {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between; }
+  .product_card_images .product_SmallImages img {
+    width: 30%; }
+  .product_card_images .product_SmallImages img:last-child {
+    visibility: hidden;
+    display: none; }
+
+.product_review {
+  margin: 20px 0;
+  display: flex; }
+  .product_review p {
+    color: #999; }
+
+.product_card_infos h2 {
+  font-size: 1.3em;
+  padding-bottom: 20px; }
+
+.product_card_infos .product_reference {
+  color: #DFDFDF; }
+
+.product_card_infos .product_price {
+  padding: 20px 0; }
+
+.product_card_infos .product_card_description {
+  color: #999; }
+
+.product_card_infos form {
+  display: flex;
+  flex-wrap: wrap; }
+  .product_card_infos form input[type=number] {
+    margin: 20px 0 10px 0;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #999; }
+  .product_card_infos form input[type=submit] {
+    font-weight: bold;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    border: none; }
+  .product_card_infos form input[type=image] {
+    margin-left: 10px;
+    padding: 12px;
+    border: 1px solid #999;
+    height: 20px;
+    vertical-align: bottom; }
+  .product_card_infos form .add_cart {
+    flex-grow: 1; }
+  .product_card_infos form .buy_now {
+    margin: 15px 0;
+    width: 100%; }
+
+.product_card_footer {
+  border-top: 1px solid #999;
+  padding: 10px 0 50px 0; }
+  .product_card_footer .product_card_social {
+    display: flex; }
+    .product_card_footer .product_card_social img {
+      height: 25px;
+      padding-right: 20px; }
+  .product_card_footer p {
+    padding: 20px 0 20px 0;
+    color: #999;
+    line-height: 1.5; }
+    .product_card_footer p strong {
+      color: #222;
+      font-weight: bold; }
+
+.product_description_nav {
+  padding: 15px 0;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  text-align: center; }
+  .product_description_nav li {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px; }
+    .product_description_nav li:first-child a {
+      color: #222; }
+
+.product_description_text {
+  padding: 30px 0; }
+  .product_description_text h3 {
+    padding: 30px 0;
+    font-weight: normal; }
+  .product_description_text p {
+    line-height: 1.5;
+    color: #999; }
+  .product_description_text ul {
+    line-height: 1.5;
+    color: #999;
+    padding: 0 20px;
+    list-style-type: disc; }
+  .product_description_text img {
+    margin-top: 20px;
+    width: 100%; }
+
+.products_related h2 {
+  margin: 20px 0;
+  font-size: 1.8em;
+  text-align: center; }
+
+.products_related article {
+  width: 100%;
+  margin: 0; }
 
 .shop_products .shop_header {
   margin: 60px 20px 20px 20px; }
