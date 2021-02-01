@@ -1,4 +1,4 @@
-main{
+.product_card, .product_description, .products_related{
 	padding: 20px;
 }
 .breadcrumb{
@@ -76,12 +76,13 @@ main{
 		color: $grey;
 	}
 	form{
+		margin: 15px 0;
 		display: flex;
 		flex-wrap: wrap;
 		input[type=number]{
 			margin: 20px 0 10px 0;
 			width: 100%;
-			height: 44px;
+			height: 42px;
 			border: 1px solid $grey;
 		}
 		input[type=submit]{
@@ -106,20 +107,20 @@ main{
 			width: 100%;
 		}
 	}
-
 }
 .product_card_footer{
 	border-top: 1px solid $grey;
 	padding: 10px 0 50px 0; 
 	.product_card_social{
 		display: flex;
+		padding-top: 40px;
 		img{
 			height: 25px;
 			padding-right: 20px;
 		}
 	}
 	p{
-		padding:20px 0 20px 0;
+		padding:20px 0 0 0;
 		color: $grey;
 		line-height: 1.5;
 		strong{
