@@ -1,0 +1,45 @@
+// headings
+h2{
+	font-size: 2.5em;
+	font-weight: bold;
+}
+h3{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h4{
+	font-size: 1.2em;
+}
+
+// hide .hidden
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+
+//links & hotlinks
+a{
+	text-decoration: none;
+	color: $grey;
+}
+.hotLinks{
+	padding: 5px 0;
+	border-bottom: 3px solid $black;
+	font-weight: bold;
+	color: $black;
+	}
+
+// price tags
+.price{
+	color: $grey;
+}
+
+//labels
+.item_label{
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+	background-color: $orange;
+}

@@ -1,0 +1,38 @@
+.shop_header{
+	
+}
+.shop_products{
+	.shop_header{
+		.shop_subheader{
+			.shop_header_right{
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+				.subheader_links{
+					}
+				a{
+					visibility: visible;
+					display: inline-block;
+					padding: 0 15px;
+
+					img{
+						height: 10px;
+						transform: rotate(90deg);
+						padding: 0 30px 0 30px;
+					}
+				&:nth-child(1){
+					display: none;
+					visibility: hidden;
+				}
+				&:nth-child(2){
+					font-weight: bold;
+					color: $black;
+				}
+				}
+			}
+		}
+	}
+}
+.shop_aside{
+	width: 50%;
+}

@@ -1,0 +1,153 @@
+//Items and item header layout
+
+.shop_products{
+	.shop_header{
+		margin: 60px 20px 20px 20px;
+		.shop_header_title{
+			h3{
+				font-size: 2em;
+			}
+			ul {
+				padding: 30px 0;
+				color: $grey;
+				li{
+					display: inline;
+					padding-right: 10px;
+				}
+				li:last-child a{
+					color: $black;
+				}
+			}
+			
+		}
+		.shop_subheader{
+			display: flex;
+			justify-content: space-between;
+			.shop_header_right{
+				color: $grey;
+				span{
+					color: $black;
+				}
+				a{
+					display: none;
+					visibility: hidden;
+				}			
+			}
+			.shop_header_icons{
+				a{
+					img{	
+						height: 15px;
+					}
+				}
+				a:last-child{
+					display: none;
+					visibility: hidden;
+				}
+			}
+		}
+		
+	}
+	.shop_products_layout{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.discover_more{
+		text-align: center;
+		margin: 15px 0 25px 0;
+	}
+}
+
+// aside layout
+
+.shop_aside{
+	margin: 0 20px;
+	article{
+		margin: 30px 0;
+		h3{
+			padding:40px 0;
+		}
+		ul{
+			color: $grey;
+			li{
+				padding-bottom: 20px; 
+			}
+		}
+	}
+	form{
+		label{
+			color: $grey;
+		}
+		// --webkit-- and others needed seems to be fucked up to style a range slider
+		input[type=range]{
+			width: 100%;
+			margin: 0 0 20px 0;
+		}
+		.colors_checboxes{
+			margin: 20px 0;
+			display: flex;
+			flex-direction: column;
+			.form_checkbox{
+				padding: 10px 0;
+				display: flex;
+				justify-content: space-between;
+				.bull{
+					display: inline-block;
+					vertical-align: text-top;
+					border-radius: 10px;
+					height: 20px;
+					width: 20px;
+					margin-right: 10px;
+					&.black{
+						background: $black;
+					}
+					&.blue{
+						background: $blue;
+					}
+					&.gold{
+						background: $gold;
+					}
+					&.nude{
+						background: $nude;
+					}
+					&.orange{
+						background: $orange;
+					}
+					&.red{
+						background: $red;
+					}
+				} 
+			}
+		}
+		ul{
+			li{
+				display: inline;
+				a{
+				color: $black;
+				}
+			}
+		}
+		
+	}
+	.shop_aside_products{
+		.shop_aside_products_small{
+			.shop_item{
+				overflow: visible;
+				display: flex;
+				width: 100%;
+				img{
+					height: 100px;
+					width: 100px;
+				}
+				.aside_product_text{
+					margin: 0 0 0 20px;
+				}
+					h3{
+					padding: 0 0 10px 0;
+					font-weight: bold;
+				}
+		}
+	}
+	}
+}
+
