@@ -132,6 +132,9 @@ a {
 .rating span:last-child {
   color: #DFDFDF; }
 
+.about_us p:first-child {
+  color: #990100; }
+
 main {
   padding: 20px; }
 
