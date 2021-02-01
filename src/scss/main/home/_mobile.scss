@@ -1,6 +1,11 @@
 .home_mainCollection{
 
+    
     background-image: url(../../img/home/sl3-1.jpg);
+    background-repeat: no-repeat;
+    /*background-size:;*/
+    
+    
 
     .home_title_left{
         list-style-type: none;
@@ -20,7 +25,8 @@
 
         .home_title_center{
 
-            color:white;
+            color: white;
+            
             display: flex;
             justify-content: center;
         }
@@ -29,6 +35,24 @@
 
             display: none;
         }
+
+}
+
+.home_collection{
+
+    .home_collection_left{ /*haut*/
+        background-image: url(../../img/home/banner_h1_1.jpg);
+    }
+
+    .home_colletion_center{ 
+        background-image: url(../../img/home/banner_h1_2.jpg);
+    }
+
+    .home_collection_right{ /*bas*/
+
+        background-image: url(../../img/home/banner_h1_3.jpg);
+
+    }
 
 }
 

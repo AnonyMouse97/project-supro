@@ -65,8 +65,14 @@ table {
   font-weight: bold;
   font-style: italic; }
 
+header {
+  display: flex;
+  flex-direction: row; }
+
 .home_mainCollection {
-  background-image: url(../../img/home/sl3-1.jpg); }
+  background-image: url(../../img/home/sl3-1.jpg);
+  background-repeat: no-repeat;
+  /*background-size:;*/ }
   .home_mainCollection .home_title_left {
     list-style-type: none;
     height: 50px;
@@ -83,6 +89,17 @@ table {
     justify-content: center; }
   .home_mainCollection .home_title_right {
     display: none; }
+
+.home_collection .home_collection_left {
+  /*haut*/
+  background-image: url(../../img/home/banner_h1_1.jpg); }
+
+.home_collection .home_colletion_center {
+  background-image: url(../../img/home/banner_h1_2.jpg); }
+
+.home_collection .home_collection_right {
+  /*bas*/
+  background-image: url(../../img/home/banner_h1_3.jpg); }
 
 .home_topSellers {
   margin-left: auto;
