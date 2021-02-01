@@ -1,0 +1,56 @@
+main{
+	margin-top: 65px;
+}
+header{
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid $light_grey;
+		&>a{
+			img{
+				display: block;
+				margin: 10px 0;
+			}
+		}
+		.header_nav{
+			display: none;
+			visibility: hidden;
+		}
+		.header_icons_navbar{
+			ul{
+				display: flex;
+				padding-right: 20px; 
+				img{
+					padding: 10px;
+					height: 20px;
+				}
+			}
+		}
+}
+
+.searchbar{
+	display: none;
+	visibility: hidden;
+}
+
+.header_cart{
+		position: relative;
+		text-align: center;
+		.cart_items{
+			color: white;
+			border-radius: 50%;
+			display: inline-block;
+			height: 20px;
+			width: 20px;
+			background-color: $orange;
+			position: absolute;
+			right: 0;
+			top: 0;
+		
+	}
+}

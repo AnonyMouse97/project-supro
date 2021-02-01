@@ -1,0 +1,31 @@
+header{
+	padding-left: 20px;
+		.header_nav{
+			display: flex;
+			visibility: visible;
+			flex-direction: row;
+			align-self: center;
+			padding-left: 50px;
+			margin-right: auto;
+			li{
+				padding-right: 30px;
+				a{
+					color: $black;
+				}
+			}
+		}	
+}
+.searchbar{
+	display: flex;
+	visibility: visible;
+	align-items:center;
+	input{
+		border:none;
+		color: $grey;
+	}
+}
+.header_icons{
+	li:nth-child(2){
+		padding-right: 60px;
+	}
+}

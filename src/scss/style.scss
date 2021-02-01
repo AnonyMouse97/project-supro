@@ -7,11 +7,11 @@
 @import 'secondary/small_globals/_small_globals.scss';
 
 @import 'secondary/mixins/_mixins.scss';
-@import 'secondary/footer/_footer.scss';
-@import 'secondary/header/_header.scss';
 @import 'secondary/shopItems/_shopItems.scss';
 
 // Import Main/mobile
+@import 'secondary/header/_mobile.scss';
+@import 'secondary/footer/_mobile.scss';
 @import 'main/home/_mobile.scss';
 @import 'main/about/_mobile.scss';
 @import 'main/contact/_mobile.scss';
@@ -20,6 +20,8 @@
 
 // Import Main/tablet
 @media (min-width: 480px){
+	@import 'secondary/header/_tablet.scss';
+	@import 'secondary/footer/_tablet.scss';
 	@import 'main/home/_tablet.scss';
 	@import 'main/about/_tablet.scss';
 	@import 'main/contact/_tablet.scss';
@@ -30,6 +32,8 @@
 
 // Import Main/desktop
 @media (min-width: 1025px){
+	@import 'secondary/header/_desktop.scss';
+	@import 'secondary/footer/_tablet.scss';
 	@import 'main/home/_desktop.scss';
 	@import 'main/about/_desktop.scss';
 	@import 'main/contact/_desktop.scss';
