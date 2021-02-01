@@ -1,58 +1,57 @@
 footer{
-
    ul{
-        
-
         color:$grey;
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-
         li:last-child{
             display: none;
             visibility: hidden;
         }
-
         li{
-            margin: 15px;
-
+            margin: 20px;
             h4{
                 color: $black;
+                font-weight: bold;
             }
-
-           
-            
-
             ul{
                 padding: 0 15px 15px 0;
-                
-
                 color: $grey;
                 display: flex;
                 flex-direction: column;
-
                 li{
                     padding-top: 10px;
                     margin: 0;
-
                     a{
-                        display: block;
-                    }
-                    
+                        color: $grey;
+                        text-decoration: none;
+                        img{
+                            margin-left: 20px;
+                            height: 10px;
+                            transform: rotate(90deg);
+                        }
+                    }  
                 }
-
                 li:last-child{
                     display: block;
-                    visibility: visible;
-            
-                }
-
-                
+                    visibility: visible;        
+                }               
+            }
+        }     
+    }
+    .footer_privacy{
+        border-top: 1px solid $light_grey;
+        .footer_privacy_left{
+            strong{
+                font-weight: bold;
+                color: black;
             }
         }
-        
-       
-      
+        .footer_privacy_right{
+            p{
+                padding-right: 20px;
+            }
+        }
     }
 }
 
@@ -61,37 +60,21 @@ footer{
 
 
 .footer_privacy{
-
     padding: 30px;
-
     display:flex;
     justify-content: space-between;
     flex-direction: column;
-
     .footer_privacy_left{
         color:$grey;
         display: flex;
-
-
-        padding: 20px;
-
-        img{
-            
-
-
-        }
-
+        padding-bottom: 20px;
     }
-
     .footer_privacy_right{
         color: $grey;
-        display: flex;
-        
+        display: flex;      
         p{
             display: flex;
-            justify-content: space-between;
-            
+            justify-content: space-between;        
         }
-
     }
 }
