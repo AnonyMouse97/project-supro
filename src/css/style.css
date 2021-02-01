@@ -68,8 +68,6 @@ table {
 body {
   font-family: "Roboto"; }
 
-
-
 h2 {
   font-size: 2.5em;
   font-weight: bold; }
@@ -177,6 +175,62 @@ header {
     position: absolute;
     right: 0;
     top: 0; }
+
+footer ul {
+  color: #999;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+  footer ul li:last-child {
+    display: none;
+    visibility: hidden; }
+  footer ul li {
+    margin: 20px; }
+    footer ul li h4 {
+      color: #222;
+      font-weight: bold; }
+    footer ul li ul {
+      padding: 0 15px 15px 0;
+      color: #999;
+      display: flex;
+      flex-direction: column; }
+      footer ul li ul li {
+        padding-top: 10px;
+        margin: 0; }
+        footer ul li ul li a {
+          color: #999;
+          text-decoration: none; }
+          footer ul li ul li a img {
+            margin-left: 20px;
+            height: 10px;
+            transform: rotate(90deg); }
+      footer ul li ul li:last-child {
+        display: block;
+        visibility: visible; }
+
+footer .footer_privacy {
+  border-top: 1px solid #DFDFDF; }
+  footer .footer_privacy .footer_privacy_left strong {
+    font-weight: bold;
+    color: black; }
+  footer .footer_privacy .footer_privacy_right p {
+    padding-right: 20px; }
+
+.footer_privacy {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  .footer_privacy .footer_privacy_left {
+    color: #999;
+    display: flex;
+    padding-bottom: 20px; }
+  .footer_privacy .footer_privacy_right {
+    color: #999;
+    display: flex; }
+    .footer_privacy .footer_privacy_right p {
+      display: flex;
+      justify-content: space-between; }
 
 .product_card, .product_description, .products_related {
   padding: 20px; }
@@ -420,6 +474,9 @@ header {
       font-weight: bold; }
 
 @media (min-width: 480px) {
+  footer ul li:last-child {
+    display: block;
+    visibility: visible; }
   .product_card_images .product_SmallImages {
     margin: 10px 0;
     display: flex;
@@ -503,6 +560,11 @@ header {
       color: #999; }
   .header_icons li:nth-child(2) {
     padding-right: 60px; }
+  .footer_privacy {
+    display: flex;
+    flex-direction: row; }
+  footer ul {
+    justify-content: space-between; }
   .product_card, .product_description, .products_related {
     width: 60%;
     margin: 0 auto; }
@@ -571,64 +633,5 @@ header {
         font-size: 3em; }
   .shop_header_icons a img {
     padding: 0 10px; } }
-ul {
-  display: flex; }
-footer ul {
-  color: #999;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start; }
-  footer ul li:last-child {
-    display: none;
-    visibility: hidden; }
-  footer ul li {
-    margin: 20px; }
-    footer ul li h4 {
-      color: #222;
-      font-weight: bold; }
-    footer ul li ul {
-      padding: 0 15px 15px 0;
-      color: #999;
-      display: flex;
-      flex-direction: column; }
-      footer ul li ul li {
-        padding-top: 10px;
-        margin: 0; }
-        footer ul li ul li a {
-          color: #999;
-          text-decoration: none; }
-          footer ul li ul li a img {
-            margin-left: 20px;
-            height: 10px;
-            transform: rotate(90deg); }
-      footer ul li ul li:last-child {
-        display: block;
-        visibility: visible; }
-
-footer .footer_privacy {
-  border-top: 1px solid #DFDFDF; }
-  footer .footer_privacy .footer_privacy_left strong {
-    font-weight: bold;
-    color: black; }
-  footer .footer_privacy .footer_privacy_right p {
-    padding-right: 20px; }
-
-.footer_privacy {
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column; }
-  .footer_privacy .footer_privacy_left {
-    color: #999;
-    display: flex;
-    padding-bottom: 20px; }
-  .footer_privacy .footer_privacy_right {
-    color: #999;
-    display: flex; }
-    .footer_privacy .footer_privacy_right p {
-      display: flex;
-      justify-content: space-between; }
-
-
 
 /*# sourceMappingURL=style.css.map */

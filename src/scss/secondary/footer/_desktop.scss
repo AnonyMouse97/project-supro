@@ -1,8 +1,9 @@
+.footer_privacy{
+	display: flex;
+	flex-direction: row;
+}
 footer{
-    ul{
-        li:last-child{
-            display: block;
-            visibility: visible;                      
-        }
-    }     
+	ul{
+		justify-content:space-between;
+	}
 }

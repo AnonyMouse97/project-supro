@@ -33,7 +33,7 @@
 // Import Main/desktop
 @media (min-width: 1025px){
 	@import 'secondary/header/_desktop.scss';
-	@import 'secondary/footer/_tablet.scss';
+	@import 'secondary/footer/_desktop.scss';
 	@import 'main/home/_desktop.scss';
 	@import 'main/about/_desktop.scss';
 	@import 'main/contact/_desktop.scss';
