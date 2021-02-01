@@ -135,13 +135,13 @@ a {
 body main {
   padding: 0; }
 
-.about_us p:first-child {
-  color: #990100; }
-
 .about_us img {
   display: flex;
   justify-content: center;
   align-content: flex-start; }
+
+.about_us img + p {
+  color: #990100; }
 
 .about_us p {
   color: #999; }
@@ -174,12 +174,32 @@ body main {
   padding-top: 10px;
   padding-bottom: 30px; }
 
-.about_third .about_guarantee {
-  /*.contact_subtitle{
+.about_third .about_drama {
+  height: 650px;
+  width: 400px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background-image: url(../../img/about/video-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 850px; }
+  .about_third .about_drama h2 {
+    text-align: center;
+    padding-top: 20px; }
+  .about_third .about_drama img + img {
+    position: absolute; }
 
-        }*/ }
+.about_third .about_guarantee {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-weight: bold; }
   .about_third .about_guarantee .contact_text {
-    color: #999; }
+    color: #999;
+    padding-bottom: 20px;
+    font-weight: normal; }
 
 .about_fourth .about_hidden {
   display: none;
@@ -197,8 +217,14 @@ body main {
 
 .about_fifth {
   padding-top: 80px; }
+  .about_fifth h2 {
+    text-align: center;
+    padding-bottom: 20px; }
   .about_fifth .about_members {
-    display: flex; }
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
     .about_fifth .about_members img {
       width: 180px;
       height: 180px; }
@@ -207,11 +233,12 @@ body main {
       padding-top: 10px;
       padding-bottom: 10px; }
     .about_fifth .about_members p + p {
-      color: #999; }
+      color: #999;
+      padding-bottom: 40px; }
 
 .about_sponsors {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin: 0 20px;
   display: flex;
   flex-wrap: wrap;

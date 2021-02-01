@@ -12,15 +12,17 @@ body{
 
 .about_us{
 
-    p:first-child{
-    color: $red;
-    }
-
     img{
         display: flex;
         justify-content: center;
         align-content: flex-start;
     }
+
+    img + p{
+        color: $red;
+    }
+
+    
     p{
         color: $grey;
     }
@@ -90,18 +92,52 @@ body{
 
     .about_drama{
 
+        height: 650px;
+        width: 400px;
+
+
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+
+        background-image: url(../../img/about/video-img.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 850px;
+
+
+        h2{
+            
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        img + img{
+            position: absolute;
+            
+            
+        }
+
 
     }
+    
 
     .about_guarantee{
 
-        /*.contact_subtitle{
+        margin: 20px;
+        
 
-        }*/
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-between;
+
+        font-weight: bold;
 
         .contact_text{
 
             color:$grey;
+            padding-bottom: 20px;
+            font-weight: normal;
         }
     }
 }
@@ -134,7 +170,18 @@ body{
 
     padding-top: 80px;
 
+    h2{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
     .about_members{
+
+        margin: 20px;
+        
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-between;
 
         img{
             width: 180px;
@@ -148,9 +195,10 @@ body{
 
         p + p{
             color: $grey;
+            padding-bottom: 40px;
         }
 
-        display: flex;
+       
         
     }
 }
@@ -158,8 +206,8 @@ body{
 
 .about_sponsors{
 
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
     margin: 0 20px;
 
