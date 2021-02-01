@@ -613,7 +613,7 @@ footer ul {
     display: flex; }
     .footer_privacy .footer_privacy_right p {
       display: flex;
-      justify-content: space-around; }
+      justify-content: space-between; }
 
 
 
