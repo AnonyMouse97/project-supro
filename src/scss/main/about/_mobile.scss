@@ -1,30 +1,48 @@
 //to remove later//
 
-body{
+/*body{
 
     main{
         padding: 0;
     }
-}
+}*/
 //_______________________________________//
 
 
 
 .about_us{
 
+  
+
     img{
         display: flex;
         justify-content: center;
         align-content: flex-start;
-    }
-
-    img + p{
-        color: $red;
+        height: 75%;
+        width: 100%;
+        
     }
 
     
+
+    img + p{
+        color: $orange;
+        text-transform: uppercase;
+        font-size: large;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h2 + p{
+        padding-bottom: 80px;
+    }
+
     p{
         color: $grey;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 
@@ -33,15 +51,20 @@ body{
     img{
 
         display: flex;
-        justify-content: center;    
+        justify-content: center; 
+        width: 75%; 
+        margin-left: 20px;  
 
     }
 
     blockquote{
 
+        padding-top: 40px;
+        padding-bottom: 40px;
+
         p{
             font-style: italic;
-            font-size: large;
+            font-size: 28px;
             font-weight: bold;
         }
         
@@ -51,7 +74,10 @@ body{
 
 #about_author{
             
-    color: $red;
+    color: $orange;
+    text-transform: uppercase;
+    font-size: large;
+    padding-bottom: 10px;
 
 }
 
@@ -59,14 +85,17 @@ body{
 #about_job{
 
     font-style: italic;
-    font-size: large;
+    font-size: 26px;
     font-weight: bold;
+    padding-bottom: 20px;
 
 }
 
 #about_job + p{
 
     color:$grey;
+    padding-bottom: 80px;
+    padding-top: 10px;
 }
 
 .about_second{
@@ -75,6 +104,8 @@ body{
 
         h2 + p{
             color:$grey;
+            padding-top: 20px;
+            padding-bottom: 40px;
         }
     }
 }
@@ -103,11 +134,16 @@ body{
         background-image: url(../../img/about/video-img.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 850px;
+        background-size: 1500px;
+        background-position-x: 50%;
+
+        p{
+            color: white;
+        }
 
 
         h2{
-            
+            color: white;
             text-align: center;
             padding-top: 20px;
         }
@@ -125,6 +161,10 @@ body{
     .about_guarantee{
 
         margin: 20px;
+
+        div{
+            margin: 20px;
+        }
         
 
         display: flex;

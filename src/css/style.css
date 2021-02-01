@@ -132,42 +132,70 @@ a {
 .rating span:last-child {
   color: #DFDFDF; }
 
-body main {
-  padding: 0; }
+/*body{
 
+    main{
+        padding: 0;
+    }
+}*/
 .about_us img {
   display: flex;
   justify-content: center;
-  align-content: flex-start; }
+  align-content: flex-start;
+  height: 75%;
+  width: 100%; }
 
 .about_us img + p {
-  color: #990100; }
+  color: #f68773;
+  text-transform: uppercase;
+  font-size: large; }
+
+.about_us h2 {
+  font-size: 30px; }
+
+.about_us h2 + p {
+  padding-bottom: 80px; }
 
 .about_us p {
-  color: #999; }
+  color: #999;
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .about_founder img {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  width: 75%;
+  margin-left: 20px; }
 
-.about_founder blockquote p {
-  font-style: italic;
-  font-size: large;
-  font-weight: bold; }
+.about_founder blockquote {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .about_founder blockquote p {
+    font-style: italic;
+    font-size: 28px;
+    font-weight: bold; }
 
 #about_author {
-  color: #990100; }
+  color: #f68773;
+  text-transform: uppercase;
+  font-size: large;
+  padding-bottom: 10px; }
 
 #about_job {
   font-style: italic;
-  font-size: large;
-  font-weight: bold; }
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 20px; }
 
 #about_job + p {
-  color: #999; }
+  color: #999;
+  padding-bottom: 80px;
+  padding-top: 10px; }
 
 .about_second .moments_title h2 + p {
-  color: #999; }
+  color: #999;
+  padding-top: 20px;
+  padding-bottom: 40px; }
 
 .key_dates p {
   color: #999;
@@ -183,8 +211,12 @@ body main {
   background-image: url(../../img/about/video-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 850px; }
+  background-size: 1500px;
+  background-position-x: 50%; }
+  .about_third .about_drama p {
+    color: white; }
   .about_third .about_drama h2 {
+    color: white;
     text-align: center;
     padding-top: 20px; }
   .about_third .about_drama img + img {
@@ -196,6 +228,8 @@ body main {
   flex-wrap: wrap;
   justify-content: space-between;
   font-weight: bold; }
+  .about_third .about_guarantee div {
+    margin: 20px; }
   .about_third .about_guarantee .contact_text {
     color: #999;
     padding-bottom: 20px;
