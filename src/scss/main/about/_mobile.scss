@@ -81,9 +81,111 @@ body{
 
     p{
         color: $grey;
+        padding-top: 10px;
+        padding-bottom: 30px;
     }
 }
 
+.about_third{
+
+    .about_drama{
+
+
+    }
+
+    .about_guarantee{
+
+        /*.contact_subtitle{
+
+        }*/
+
+        .contact_text{
+
+            color:$grey;
+        }
+    }
+}
+
+
+.about_fourth{
+
+    .about_hidden{
+        display: none;
+        visibility: hidden;
+    }
+
+    .about_hidden + div{
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+
+    .about_shop{
+        color: $grey;
+    }
+
+
+}
+
+.about_fifth{
+
+    padding-top: 80px;
+
+    .about_members{
+
+        img{
+            width: 180px;
+            height: 180px;
+        }
+        img + p{
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        p + p{
+            color: $grey;
+        }
+
+        display: flex;
+        
+    }
+}
+
+
+.about_sponsors{
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    margin: 0 20px;
+
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+
+    
+    .about_hidden{
+        display: none;
+        visibility: hidden;
+    }
+
+    img{
+
+        opacity: 0.5;
+
+        margin: 10px;
+        width:100px ;
+        
+
+        
+
+
+    }
+}
 
 
 

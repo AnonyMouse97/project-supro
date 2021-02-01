@@ -170,7 +170,59 @@ body main {
   color: #999; }
 
 .key_dates p {
+  color: #999;
+  padding-top: 10px;
+  padding-bottom: 30px; }
+
+.about_third .about_guarantee {
+  /*.contact_subtitle{
+
+        }*/ }
+  .about_third .about_guarantee .contact_text {
+    color: #999; }
+
+.about_fourth .about_hidden {
+  display: none;
+  visibility: hidden; }
+
+.about_fourth .about_hidden + div {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px; }
+
+.about_fourth .about_shop {
   color: #999; }
+
+.about_fifth {
+  padding-top: 80px; }
+  .about_fifth .about_members {
+    display: flex; }
+    .about_fifth .about_members img {
+      width: 180px;
+      height: 180px; }
+    .about_fifth .about_members img + p {
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .about_fifth .about_members p + p {
+      color: #999; }
+
+.about_sponsors {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .about_sponsors .about_hidden {
+    display: none;
+    visibility: hidden; }
+  .about_sponsors img {
+    opacity: 0.5;
+    margin: 10px;
+    width: 100px; }
 
 main {
   padding: 20px; }
