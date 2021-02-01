@@ -132,8 +132,45 @@ a {
 .rating span:last-child {
   color: #DFDFDF; }
 
+body main {
+  padding: 0; }
+
 .about_us p:first-child {
   color: #990100; }
+
+.about_us img {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start; }
+
+.about_us p {
+  color: #999; }
+
+.about_founder img {
+  display: flex;
+  justify-content: center; }
+
+.about_founder blockquote p {
+  font-style: italic;
+  font-size: large;
+  font-weight: bold; }
+
+#about_author {
+  color: #990100; }
+
+#about_job {
+  font-style: italic;
+  font-size: large;
+  font-weight: bold; }
+
+#about_job + p {
+  color: #999; }
+
+.about_second .moments_title h2 + p {
+  color: #999; }
+
+.key_dates p {
+  color: #999; }
 
 main {
   padding: 20px; }
