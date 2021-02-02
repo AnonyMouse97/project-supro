@@ -16,7 +16,7 @@
         
         display: flex;
         justify-content: flex-end;
-        margin-left: 160px;
+        margin-left: 200px;
 
     }
 }
@@ -26,40 +26,51 @@
     
 
     img{
-        height:280px ;
-        width: 260px;
+        height:260px ;
+        width: 240px;
 
         display: flex;
         justify-content: flex-start; 
 
     }
+
+    .about_founder_text{
+        
     
-    blockquote{
-        display: flex;
-        justify-content: flex-end;
+        blockquote{
+            display: flex;
+            justify-content: flex-end;
 
-        margin-left: 45%;
+            margin-left: 6%;
 
-    }
+        }
 
-    blockquote + p{
-        display:flex;
-        justify-content: flex-end;
+        blockquote + p{
+            display:flex;
+            justify-content: flex-start;
 
-        margin-left: 45%;
+            margin-left: 6%;
 
-    }
+        }
 
-    p + p{
-        display:flex;
-        justify-content: flex-end;
+        p + p{
+            display:flex;
+            justify-content: flex-start;
 
-        margin-left: 45%;
+            margin-left: 6%;
 
+        }
     }
 }
 
 .about_second{
+
+    .moments_title{
+
+        margin-right: 180px;
+        
+
+    }
 
     .key_dates{
         display: flex;
@@ -67,9 +78,52 @@
         justify-content: space-between;
 
         .key_date{
-            display: flex;
-            align-items: center;
+            margin: 10px;
+
+            width: 268px;
+
+
+        }
+
+        
+        
+       
+
+    }
+}
+
+
+.about_third{
+
+
+    .about_drama{
+
+        .about_drama_text{
+            
+            position: relative;
+            top:100px;
+        }
+    }
+
+    .about_guarantee{
+
+        .about_guarantee_content{
+            margin: 60px;
         }
 
     }
+
+
+}
+
+
+.about_fourth{
+
+    .about_hidden + div{
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    
 }
