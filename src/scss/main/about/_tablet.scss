@@ -1,0 +1,127 @@
+.about_us{
+
+    
+
+    h2{
+       font-size: 50px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 80px;
+
+    }
+
+    h2 + p{
+        
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 200px;
+
+    }
+}
+
+.about_founder{
+
+    flex-wrap: nowrap;
+
+    img{
+        height: 235px;
+        width: 250px;
+
+       
+
+    }
+
+    .about_founder_text{
+        
+        width: auto;
+    
+        blockquote{
+            display: flex;
+            justify-content: flex-end;
+
+            margin-left: 6%;
+
+        }
+
+        blockquote + p{
+            display:flex;
+            justify-content: flex-start;
+
+            margin-left: 6%;
+
+        }
+
+        p + p{
+            display:flex;
+            justify-content: flex-start;
+
+            margin-left: 6%;
+
+        }
+    }
+}
+
+.about_second{
+
+    .moments_title{
+
+        margin-right: 180px;
+        
+
+    }
+
+    .key_dates{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-between;
+
+        .key_date{
+            margin: 10px;
+
+            width: 268px;
+
+
+        }
+
+        
+        
+       
+
+    }
+}
+
+
+.about_third{
+
+
+    .about_drama{
+
+        .about_drama_text{
+            
+            position: relative;
+            top:100px;
+        }
+    }
+
+    .about_guarantee{
+
+        .about_guarantee_content{
+            margin: 60px;
+        }
+
+    }
+
+
+}
+
+
+.about_fourth{
+
+    .about_hidden + div{
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    
+}

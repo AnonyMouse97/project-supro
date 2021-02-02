@@ -133,6 +133,161 @@ a {
 .rating span:last-child {
   color: #DFDFDF; }
 
+/*body{
+
+   main{
+       padding: 0;
+    }
+    
+}*/
+.about_us img {
+  width: 100%; }
+
+.about_us #about_us_text_about_us {
+  color: #f68773;
+  text-transform: uppercase;
+  font-size: large; }
+
+.about_us h2 {
+  font-size: 1.8em; }
+
+.about_us h2 + p {
+  padding-bottom: 80px; }
+
+.about_us p {
+  color: #999;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.about_founder {
+  display: flex;
+  flex-wrap: wrap; }
+  .about_founder img {
+    width: 100%;
+    margin: 0 20px 30px 0; }
+  .about_founder blockquote {
+    padding-bottom: 40px; }
+    .about_founder blockquote p {
+      font-style: italic;
+      font-size: 28px;
+      font-weight: bold; }
+
+#about_author {
+  color: #f68773;
+  text-transform: uppercase;
+  font-size: large;
+  padding-bottom: 10px; }
+
+#about_job {
+  font-style: italic;
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 20px; }
+
+#about_job + p {
+  color: #999;
+  padding-bottom: 80px;
+  padding-top: 10px; }
+
+.about_second .moments_title h2 + p {
+  color: #999;
+  padding-top: 20px;
+  padding-bottom: 40px; }
+
+.key_dates p {
+  color: #999;
+  padding-top: 10px;
+  padding-bottom: 30px; }
+
+.about_third .about_drama {
+  position: relative;
+  height: 650px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background-image: url(../../img/about/video-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .about_third .about_drama .about_drama_text {
+    position: absolute;
+    top: 100px; }
+  .about_third .about_drama p {
+    color: white; }
+  .about_third .about_drama h2 {
+    color: white;
+    text-align: center;
+    padding-top: 20px; }
+  .about_third .about_drama img + img {
+    position: absolute; }
+
+.about_third .about_guarantee {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-weight: bold; }
+  .about_third .about_guarantee .about_guarantee_content {
+    display: flex;
+    margin: 5px; }
+    .about_third .about_guarantee .about_guarantee_content img {
+      height: 20px;
+      margin-right: 15px; }
+  .about_third .about_guarantee .contact_text {
+    color: #999;
+    padding-bottom: 20px;
+    font-weight: normal; }
+
+.about_fourth .about_hidden {
+  display: none;
+  visibility: hidden; }
+
+.about_fourth .about_hidden + div {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px; }
+
+.about_fourth .about_shop {
+  color: #999; }
+
+.about_fifth {
+  padding-top: 80px; }
+  .about_fifth h2 {
+    text-align: center;
+    padding-bottom: 20px; }
+  .about_fifth .about_members {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .about_fifth .about_members img {
+      width: 130px;
+      height: 130px; }
+    .about_fifth .about_members img + p {
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .about_fifth .about_members p + p {
+      color: #999;
+      padding-bottom: 40px; }
+
+.about_sponsors {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .about_sponsors .about_hidden {
+    display: none;
+    visibility: hidden; }
+  .about_sponsors img {
+    opacity: 0.5;
+    margin: 10px;
+    width: 100px; }
+
 main {
   margin-top: 65px; }
 
@@ -829,6 +984,52 @@ footer .footer_privacy {
     .product_flex_container article {
       width: 40%;
       margin: 15px; }
+  .about_us h2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80px; }
+  .about_us h2 + p {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 200px; }
+  .about_founder {
+    flex-wrap: nowrap; }
+    .about_founder img {
+      height: 235px;
+      width: 250px; }
+    .about_founder .about_founder_text {
+      width: auto; }
+      .about_founder .about_founder_text blockquote {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 6%; }
+      .about_founder .about_founder_text blockquote + p {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 6%; }
+      .about_founder .about_founder_text p + p {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 6%; }
+  .about_second .moments_title {
+    margin-right: 180px; }
+  .about_second .key_dates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .about_second .key_dates .key_date {
+      margin: 10px;
+      width: 268px; }
+  .about_third .about_drama .about_drama_text {
+    position: relative;
+    top: 100px; }
+  .about_third .about_guarantee .about_guarantee_content {
+    margin: 60px; }
+  .about_fourth .about_hidden + div {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 60px; }
   .shop_products .shop_header .shop_subheader .shop_header_right {
     width: 100%;
     display: flex;
@@ -957,20 +1158,30 @@ footer .footer_privacy {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+
     display: flex;
+    justify-content: flex-end;
     flex-direction: row-reverse; }
-  #hidden {
-    visibility: visible;
-    display: inline; }
-  .shop_header_icons, .shop_header, .shop_header_right {
-    display: flex; }
-  .shop_products {
-    font-size: .8em; }
-    .shop_products .shop_header .shop_header_title {
-      width: 200px; }
-      .shop_products .shop_header .shop_header_title h3 {
-        font-size: 3em; }
-  .shop_header_icons a img {
-    padding: 0 10px; } }
+    .about_first .about_us img {
+      margin-bottom: 80px; }
+    .about_first .about_us .about_us_text {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      width: auto;
+      margin-right: 15px; }
+      .about_first .about_us .about_us_text h2 {
+        margin-left: 0; }
+      .about_first .about_us .about_us_text h2 + p {
+        padding-left: 0; }
+  .about_second {
+    display: flex;
+    justify-content: space-between; }
+    .about_second .moments_title {
+      width: 30%;
+      margin-right: 0; }
+    .about_second .key_dates {
+      width: 60%;
+      justify-content: flex-end; } }
 
 /*# sourceMappingURL=style.css.map */

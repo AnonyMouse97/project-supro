@@ -1,0 +1,296 @@
+//to remove later//
+
+/*body{
+
+   main{
+       padding: 0;
+    }
+    
+}*/
+//_______________________________________//
+
+
+
+.about_us{
+    
+
+    img{
+       
+        width:100%;
+        
+        
+    
+    }
+
+    
+
+    #about_us_text_about_us {
+        
+        color: $orange;
+        text-transform: uppercase;
+        font-size: large;
+    }
+
+    h2{
+        font-size: 1.8em;
+    }
+
+    h2 + p{
+        padding-bottom: 80px;
+    }
+
+    p{
+        color: $grey;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.about_founder{
+    display: flex;
+    flex-wrap: wrap;
+
+    img{
+
+        
+        width: 100%; 
+        margin:0 20px 30px 0;
+         
+
+    }
+
+    blockquote{
+
+        //padding-top: 40px;
+        padding-bottom: 40px;
+
+        p{
+            font-style: italic;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+    }
+  
+}
+
+#about_author{
+            
+    color: $orange;
+    text-transform: uppercase;
+    font-size: large;
+    padding-bottom: 10px;
+
+}
+
+
+#about_job{
+
+    font-style: italic;
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+
+#about_job + p{
+
+    color:$grey;
+    padding-bottom: 80px;
+    padding-top: 10px;
+}
+
+.about_second{
+
+    .moments_title{
+
+        h2 + p{
+            color:$grey;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+    }
+}
+
+.key_dates{
+
+    p{
+        color: $grey;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+}
+
+.about_third{
+
+    .about_drama{
+        position: relative;
+        height: 650px;
+        
+
+
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+
+        background-image: url(../../img/about/video-img.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+
+        .about_drama_text{
+            position: absolute;
+            top:100px;
+        }
+
+        p{
+            color: white;
+        }
+
+
+        h2{
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        img + img{
+            position: absolute;
+            
+            
+        }
+
+
+    }
+    
+
+    .about_guarantee{
+
+        margin-top: 40px;
+    
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-between;
+
+        font-weight: bold;
+
+        .about_guarantee_content{
+            display: flex;
+            margin: 5px;
+
+            img{
+                height: 20px;
+                margin-right:15px ;
+                
+            }
+        }
+        .contact_text{
+
+            color:$grey;
+            padding-bottom: 20px;
+            font-weight: normal;
+        }
+    }
+}
+
+
+.about_fourth{
+
+    .about_hidden{
+        display: none;
+        visibility: hidden;
+    }
+
+    .about_hidden + div{
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+
+    .about_shop{
+        color: $grey;
+    }
+
+
+}
+
+.about_fifth{
+
+    padding-top: 80px;
+
+    h2{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .about_members{
+
+        margin: 20px;
+        
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-between;
+
+
+        img{
+            width: 130px;
+            height: 130px;
+            
+        }
+        img + p{
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+           
+        }
+
+        p + p{
+            color: $grey;
+            padding-bottom: 40px;
+        
+        }
+
+       
+        
+    }
+}
+
+
+.about_sponsors{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    margin: 0 20px;
+
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+
+    
+    .about_hidden{
+        display: none;
+        visibility: hidden;
+    }
+
+    img{
+
+        opacity: 0.5;
+
+        margin: 10px;
+        width:100px ;
+        
+
+        
+
+
+    }
+}
+
+
+
+
