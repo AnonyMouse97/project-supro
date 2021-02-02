@@ -1,0 +1,54 @@
+
+
+#message {
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contact_form{
+
+    .contact_firstline{
+
+        display: flex;
+        flex-direction: column;
+        
+        .contact_fields{
+            display: flex;
+            justify-content: space-between;
+
+            .contact_nameField,
+            .contact_mailField{
+                display: flex;
+                flex-direction: column;
+                width: 48%;
+                
+            }
+        }
+        .contact_mailing{
+            margin-top: 30px;
+
+            #message{
+                margin-top: 20px;
+            }
+        }
+    }
+
+    #submit_button{
+        width: 30%;
+    }
+}
+
+.contact_align{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 80px;
+
+    .contact_mail{
+        p:nth-child(2){
+            white-space: nowrap;
+        }
+    }
+}
+

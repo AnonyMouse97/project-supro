@@ -93,6 +93,7 @@
                 <h2> Contact </h2>
                 <ul>
                     <li> <a href="../index.html"> Home </a> </li>
+                    <li> &bull; </li>
                     <li> <a href="#"> Contact </a> </li>
                 </ul>
             </div>
@@ -101,16 +102,22 @@
         <section class="contact_form">
             <form id="contact_form" method="post">
                 <div class="contact_firstline">
-                    <label for="Name"> Name </label>
-                    <input type="text" id="Name" name="Name" required>
-                    <label for="Email"> Email </label>
-                    <input type="email" id="Email" name="Email" required>
+                    <div class="contact_fields">
+                        <div class="contact_nameField">
+                            <label for="Name" id="field_name"> Name </label>
+                            <input type="text" id="field" name="Name" required>
+                        </div>
+                        <div class="contact_mailField">
+                            <label for="Email" id="field_name"> Email </label>
+                            <input type="email" id="field" name="Email" required>
+                        </div>
+                    </div>
+                    <div class="contact_mailing">
+                        <label for="Message" id="field_message"> Your message </label>
+                        <textarea id="message" name="Message" rows="6" maxlength="3000" required></textarea>
+                    </div>
                 </div>
-
-
-                <label for="Message"> Your message </label>
-                <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
-                <input type="submit" value="SEND MESSAGE">
+                <input type="submit" id="submit_button" value="SEND MESSAGE">
             </form>
 
             <div id="contact_address">
@@ -121,12 +128,12 @@
                     <li> <img src="../img/contact_icons/link.png" alt="linkedin"> </li>
                     <li> <img src="../img/contact_icons/insta.png" alt="instagram"> </li>
                 </ul>
-                <div>
+                <div class="contact_office">
                     <h3> Our Office </h3>
                     <p> 15 St Margarets Lane New York, NY 10033</p>
                 </div>
 
-                <div>
+                <div class="contact_touch">
                     <h3> Get in Touch </h3>
                     <p class="contact_subtitle"> PHONE NUMBER </p>
                     <p class="contact_text"> 631-679-6357 </p>
@@ -134,54 +141,65 @@
                     <p class="contact_subtitle"> EMAIL </p>
                     <p class="contact_text"> supro@example.com </p>
                 </div>
-
             </div>
         </section>
 
         <section class="contact_stores">
-            <div id="contact_london">
+            <div class="contact_fullAd">
                 <h3> Store in London </h3>
-                <div class="contact_london_location">
-                    <p class="contact_subtitle"> LOCATION </p>
-                    <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
-                </div>
-                <div class="contact_london_phone">
-                    <p class="contact_subtitle"> PHONE NUMBER </p>
-                    <p class="contact_text"> 077 6941 6241 </p>
-                </div>
-                <div class="contact_london_mail">
-                    <p class="contact_subtitle"> EMAIL </p>
-                    <p class="contact_text"> suprolondon@example.com </p>
+                <div class="contact_align">
+                    <div class="contact_location">
+                        <p class="contact_subtitle"> LOCATION </p>
+                        <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+                    </div>
+                    <div class="contact_phoneEmail">
+                        <div class="contact_phone">
+                            <p class="contact_subtitle"> PHONE NUMBER </p>
+                            <p class="contact_text"> 077 6941 6241 </p>
+                        </div>
+                        <div class="contact_mail">
+                            <p class="contact_subtitle"> EMAIL </p>
+                            <p class="contact_text"> suprolondon@example.com </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="contact_sydney">
+            <div class="contact_fullAd">
                 <h3> Store in Sydney </h3>
-                <div class="contact_sydney_location">
-                    <p class="contact_subtitle"> LOCATION </p>
-                    <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
-                </div>
-                <div class="contact_sydney_phone">
-                    <p class="contact_subtitle"> PHONE NUMBER </p>
-                    <p class="contact_text"> 077 6941 6241 </p>
-                </div>
-                <div class="contact_sydney_mail">
-                    <p class="contact_subtitle"> EMAIL </p>
-                    <p class="contact_text"> suprosydney@example.com </p>
+                <div class="contact_align">
+                    <div class="contact_location">
+                        <p class="contact_subtitle"> LOCATION </p>
+                        <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+                    </div>
+                    <div class="contact_phoneEmail">
+                        <div class="contact_phone">
+                            <p class="contact_subtitle"> PHONE NUMBER </p>
+                            <p class="contact_text"> 077 6941 6241 </p>
+                        </div>
+                        <div class="contact_mail">
+                            <p class="contact_subtitle"> EMAIL </p>
+                            <p class="contact_text"> suprosydney@example.com </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="contact_hamburg">
+            <div class="contact_fullAd">
                 <h3> Store in Hamburg </h3>
-                <div class="contact_hamburg_location">
-                    <p class="contact_subtitle"> LOCATION </p>
-                    <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
-                </div>
-                <div class="contact_hamburg_phone">
-                    <p class="contact_subtitle"> PHONE NUMBER </p>
-                    <p class="contact_text"> 077 6941 6241 </p>
-                </div>
-                <div class="contact_hamburg_mail">
-                    <p class="contact_subtitle"> EMAIL </p>
-                    <p class="contact_text"> hamburg@example.com </p>
+                <div class="contact_align">
+                    <div class="contact_location">
+                        <p class="contact_subtitle"> LOCATION </p>
+                        <p class="contact_text"> 16 Iolaire Road, New Abbey, DG2 2SX </p>
+                    </div>
+                    <div class="contact_phoneEmail">
+                        <div class="contact_phone">
+                            <p class="contact_subtitle"> PHONE NUMBER </p>
+                            <p class="contact_text"> 077 6941 6241 </p>
+                        </div>
+                        <div class="contact_mail">
+                            <p class="contact_subtitle"> EMAIL </p>
+                            <p class="contact_text"> hamburg@example.com </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -189,7 +207,7 @@
         <section class="contact_map">
             <h2 class="hidden"> Map </h2>
             <div class="gmap_canvas">
-                <iframe width="600" height="500" id="gmap_canvas"
+                <iframe id="gmap_canvas"
                     src="https://maps.google.com/maps?q=Karl-Marx-Stra%C3%9Fe%20170,%2012043%20Berlin,%20Allemagne&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
             </div>
         </section>
