@@ -1,0 +1,31 @@
+@mixin collection($url){
+	background: 45% url($url) no-repeat;
+	background-size: cover;
+	div{
+		padding: 60px 40px;
+	}
+	p{
+		color: $grey;
+		padding: 20px 0; 
+	}
+	h2{
+		margin-bottom: 20px;
+	}
+
+}
+
+@mixin topSellers($width){
+	img{
+		width: $width;
+	}
+	h3, h2{
+		font-size: 1.5em;
+		margin: 20px 0;
+	}
+	p{
+		margin-bottom:20px;
+	}
+	a{
+		border-bottom: 3px solid $black;
+	}
+}
