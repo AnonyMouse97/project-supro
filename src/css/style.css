@@ -88,7 +88,8 @@ a {
   color: #999; }
 
 .hotLinks {
-  padding: 5px 0;
+  font-size: .8em;
+  padding: 3px 0;
   border-bottom: 3px solid #222;
   font-weight: bold;
   color: #222; }
@@ -378,6 +379,7 @@ footer .footer_privacy {
     text-align: center; }
 
 .home_deal {
+  margin: 20px 0;
   padding: 10px;
   background: 55% url("../../img/home/deals_image.jpg"); }
   .home_deal .home_deal_text {
@@ -392,6 +394,92 @@ footer .footer_privacy {
       color: #999; }
     .home_deal .home_deal_text .deal_del {
       margin-bottom: 20px; }
+    .home_deal .home_deal_text .home_deal_countdown {
+      margin: 50px 0;
+      padding: 20px;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      text-align: center; }
+      .home_deal .home_deal_text .home_deal_countdown div p:first-child {
+        font-weight: bold;
+        font-size: 1.2em; }
+      .home_deal .home_deal_text .home_deal_countdown div p:nth-child(2) {
+        padding: 10px 0 0 0;
+        color: #999;
+        font-size: .8em; }
+
+.home_latestNews {
+  margin: 30px 0;
+  padding: 15px; }
+  .home_latestNews .home_latestNews_header {
+    margin-bottom: 30px; }
+    .home_latestNews .home_latestNews_header p {
+      margin: 10px 0;
+      color: #999; }
+  .home_latestNews .home_latestNews_news img {
+    width: 100%; }
+  .home_latestNews .home_latestNews_news .news_desc {
+    margin: 20px 0; }
+  .home_latestNews .home_latestNews_news div div {
+    margin-bottom: 10px;
+    display: flex; }
+  .home_latestNews .home_latestNews_news .home_news_diy {
+    color: #f68773; }
+  .home_latestNews .home_latestNews_news .home_dates {
+    padding-left: 15px;
+    color: #999; }
+  .home_latestNews .home_latestNews_news .home_news_art {
+    margin-bottom: 40px; }
+
+.home_keepConnected {
+  border-bottom: 1px solid #DFDFDF;
+  padding: 15px; }
+  .home_keepConnected h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em; }
+  .home_keepConnected p {
+    color: #999; }
+  .home_keepConnected form {
+    margin: 40px 0 20px 0;
+    display: flex;
+    justify-content: space-between; }
+    .home_keepConnected form input[type=email] {
+      border: none;
+      color: #999; }
+    .home_keepConnected form input[type=submit] {
+      font-family: "Roboto", sans-serif;
+      background-color: white;
+      border: none;
+      font-weight: bold; }
+
+.home_banner h2 {
+  text-align: center;
+  font-size: 1.5em; }
+
+.home_banner ul {
+  display: flex;
+  flex-wrap: wrap; }
+  .home_banner ul li {
+    width: 33%; }
+    .home_banner ul li img {
+      width: 100%; }
+
+.home_banner li:nth-child(4) {
+  display: none;
+  visibility: hidden; }
+
+.home_banner li:nth-child(5) {
+  display: none;
+  visibility: hidden; }
+
+.home_banner li:nth-child(6) {
+  display: none;
+  visibility: hidden; }
+
+.home_banner li:nth-child(7) {
+  display: none;
+  visibility: hidden; }
 
 .product_card, .product_description, .products_related {
   padding: 20px; }
