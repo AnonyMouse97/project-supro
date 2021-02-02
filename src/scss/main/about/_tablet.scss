@@ -23,19 +23,19 @@
 
 .about_founder{
 
-    
+    flex-wrap: nowrap;
 
     img{
-        height:260px ;
-        width: 240px;
+        height: 235px;
+        width: 250px;
 
-        display: flex;
-        justify-content: flex-start; 
+       
 
     }
 
     .about_founder_text{
         
+        width: auto;
     
         blockquote{
             display: flex;

@@ -163,12 +163,11 @@ a {
   padding-bottom: 30px; }
 
 .about_founder {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
   .about_founder img {
-    display: flex;
-    justify-content: center;
-    width: 75%;
-    margin-left: 20px; }
+    width: 100%;
+    margin: 0 20px 30px 0; }
   .about_founder blockquote {
     padding-bottom: 40px; }
     .about_founder blockquote p {
@@ -267,8 +266,8 @@ a {
     flex-wrap: wrap;
     justify-content: space-between; }
     .about_fifth .about_members img {
-      width: 160px;
-      height: 160px; }
+      width: 130px;
+      height: 130px; }
     .about_fifth .about_members img + p {
       font-weight: bold;
       padding-top: 10px;
@@ -543,23 +542,25 @@ main {
     display: flex;
     justify-content: flex-end;
     margin-left: 200px; }
-  .about_founder img {
-    height: 260px;
-    width: 240px;
-    display: flex;
-    justify-content: flex-start; }
-  .about_founder .about_founder_text blockquote {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 6%; }
-  .about_founder .about_founder_text blockquote + p {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 6%; }
-  .about_founder .about_founder_text p + p {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 6%; }
+  .about_founder {
+    flex-wrap: nowrap; }
+    .about_founder img {
+      height: 235px;
+      width: 250px; }
+    .about_founder .about_founder_text {
+      width: auto; }
+      .about_founder .about_founder_text blockquote {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 6%; }
+      .about_founder .about_founder_text blockquote + p {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 6%; }
+      .about_founder .about_founder_text p + p {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 6%; }
   .about_second .moments_title {
     margin-right: 180px; }
   .about_second .key_dates {
@@ -600,6 +601,9 @@ main {
     width: 50%; } }
 
 @media (min-width: 1025px) {
+  .about__first {
+    display: flex;
+    justify-content: flex-start; }
   main {
     max-width: 1000px;
     margin: 100px;
