@@ -65,12 +65,38 @@ table {
   font-weight: bold;
   font-style: italic; }
 
+body {
+  font-family: "Roboto"; }
+
 .contact_title {
   background-image: url("../../../img/contact/contact-bg.jpg");
   padding-top: 15px;
-  height: 350px; }
-  .contact_title #contact_title {
-    margin: 0 auto;
-    width: 50%; }
+  height: 350px;
+  display: flex;
+  align-items: center; }
+  .contact_title .contact_center {
+    margin: auto;
+    width: 50%;
+    text-align: center; }
+    .contact_title .contact_center h2 {
+      font-size: 2.5em;
+      font-weight: bold; }
+  .contact_title ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 0 0; }
+    .contact_title ul li:last-child a {
+      color: #222; }
+    .contact_title ul a {
+      color: #999; }
+
+#contact_form {
+  padding: 10px; }
+  #contact_form .contact_firstline {
+    display: flex;
+    flex-direction: column; }
+  #contact_form label::after {
+    content: "*";
+    color: red; }
 
 /*# sourceMappingURL=style.css.map */

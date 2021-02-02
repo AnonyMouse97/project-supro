@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../img/home/logo_supro.svg">
     <link rel="stylesheet" type="text/css" href="../src/css/style.css">
-    <title>Document</title>
+    <title>Supro - Contact</title>
 
     <style>
         .mapouter {
@@ -96,12 +96,11 @@
 
     <main>
         <section class="contact_title">
-            <div id="contact_title">
+            <div class="contact_center">
                 <h2> Contact </h2>
-            </div>
-            <div id="contact_carou">
                 <ul>
                     <li> <a href="../index.html"> Home </a> </li>
+                    <li> . </li>
                     <li> <a href="#"> Contact </a> </li>
                 </ul>
             </div>
@@ -110,16 +109,15 @@
         <section class="contact_form">
             <form id="contact_form" method="post">
                 <div class="contact_firstline">
-                    <label for="Name"> Name </label>
-                    <input type="text" id="Name" name="Name" required>
-                    <label for="Email"> Email </label>
-                    <input type="email" id="Email" name="Email" required>
+                    <label for="Name" id="field_name"> Name </label>
+                    <input type="text" id="field" name="Name" required>
+                    <label for="Email" id="field_name"> Email </label>
+                    <input type="email" id="field" name="Email" required>
+                    <label for="Message" id="field_name"> Your Message </label>
+                    <textarea id="message" name="Message" rows="6" maxlength="3000" required></textarea>
                 </div>
+                <input type="submit" id="submit_button" value="SEND MESSAGE">
 
-
-                <label for="Message"> Your message </label>
-                <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
-                <input type="submit" value="SEND MESSAGE">
             </form>
 
             <div id="contact_address">
@@ -130,12 +128,12 @@
                     <li> <img src="../img/contact_icons/link.png" alt="linkedin"> </li>
                     <li> <img src="../img/contact_icons/insta.png" alt="instagram"> </li>
                 </ul>
-                <div>
+                <div class="contact_office">
                     <h3> Our Office </h3>
                     <p> 15 St Margarets Lane New York, NY 10033</p>
                 </div>
 
-                <div>
+                <div class="contact_touch">
                     <h3> Get in Touch </h3>
                     <p class="contact_subtitle"> PHONE NUMBER </p>
                     <p class="contact_text"> 631-679-6357 </p>
@@ -143,6 +141,7 @@
                     <p class="contact_subtitle"> EMAIL </p>
                     <p class="contact_text"> supro@example.com </p>
                 </div>
+
             </div>
         </section>
 
@@ -207,49 +206,60 @@
 
         <ul>
 
-            <li>HELP & INFOMATION</li>
+            <li>
+                <h4>HELP & INFOMATION</h4>
+                <ul>
+                    <li>Track Order</li>
+                    <li>Delivery & Returns</li>
+                    <li>Premier Delivery</li>
+                    <li>FAQs</li>
+                </ul>
+            </li>
 
-            <ul>
-                <li>Track Order</li>
-                <li>Delivery & Returns</li>
-                <li>Premier Delivery</li>
-                <li>FAQs</li>
-            </ul>
 
 
 
-            <li>ABOUT SUPRO</li>
 
-            <ul>
-                <li>About us</li>
-                <li>Careers</li>
-                <li>Corporate</li>
-                <li>Investors</li>
-            </ul>
+            <li>
+                <h4>ABOUT SUPRO</h4>
+                <ul>
+                    <li>About us</li>
+                    <li>Careers</li>
+                    <li>Corporate</li>
+                    <li>Investors</li>
+                </ul>
+            </li>
 
-            <li>ONLINE SHOP</li>
 
-            <ul>
 
-                <li>Shoues</li>
-                <li>Bags</li>
-                <li>Wallets</li>
-                <li>Belts</li>
+            <li>
+                <h4>ONLINE SHOP</h4>
+                <ul>
+                    <li>Shoues</li>
+                    <li>Bags</li>
+                    <li>Wallets</li>
+                    <li>Belts</li>
+                </ul>
+            </li>
 
-            </ul>
 
-            <li>LANGUAGE</li>
 
-            <ul>
-                <li><a href="#">English</a></li>
-            </ul>
+            <li>
+                <h4>LANGUAGE</h4>
+                <ul>
+                    <li><a href="#">English</a></li>
+                </ul>
+            </li>
 
-            <li>CURRENCY</li>
 
-            <ul>
-                <li><a href="#">USD</a></li>
 
-            </ul>
+            <li>
+                <h4>CURRENCY</h4>
+                <ul>
+                    <li><a href="#">USD</a></li>
+                </ul>
+            </li>
+
 
         </ul>
 
@@ -271,6 +281,8 @@
             </div>
 
         </div>
+
+    </footer>
 
     </footer>
 </body>
