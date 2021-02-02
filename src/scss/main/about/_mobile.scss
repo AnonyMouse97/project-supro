@@ -15,18 +15,17 @@
     
 
     img{
-        display: flex;
-        justify-content: center;
-        align-content: flex-start;
-        height: 75%;
-        width: 100%;
+       
+        width:100%;
+        
         
     
     }
 
     
 
-    img + p{
+    #about_us_text_about_us {
+        
         color: $orange;
         text-transform: uppercase;
         font-size: large;

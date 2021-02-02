@@ -1,15 +1,69 @@
+main{
+	max-width: 1000000px;
+	margin: 0;
+	display: block;
+	
+}
+.about_first{
 
-.about__first{
 
-    display: flex;
-    justify-content: flex-start;
 
     .about_us{
-
-
+       display: flex;
+       justify-content: flex-end;
+        flex-direction: row-reverse; 
+        
         img{
-            
-            
+            margin-bottom: 80px;
         }
+
+    
+    
+    .about_us_text{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+
+        width: auto;
+
+        margin-right: 15px;
+
+        h2{
+            margin-left: 0;
+        }
+
+        h2 + p{
+            padding-left: 0;
+        }
+
+
+    
+    }
+    
+        
+    }
+
+
+}
+
+.about_second{
+
+    display: flex;
+    justify-content: space-between;
+
+    .moments_title{
+
+        width: 30%;
+        margin-right: 0;
+
+    }
+
+    .key_dates{
+
+        width: 60%;
+
+        justify-content: flex-end;
+
     }
 }
+

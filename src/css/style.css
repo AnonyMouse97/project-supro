@@ -140,13 +140,9 @@ a {
     
 }*/
 .about_us img {
-  display: flex;
-  justify-content: center;
-  align-content: flex-start;
-  height: 75%;
   width: 100%; }
 
-.about_us img + p {
+.about_us #about_us_text_about_us {
   color: #f68773;
   text-transform: uppercase;
   font-size: large; }
@@ -531,8 +527,6 @@ main {
       font-weight: bold; }
 
 @media (min-width: 480px) {
-  .about_us img + p {
-    margin-left: 80px; }
   .about_us h2 {
     font-size: 50px;
     display: flex;
@@ -541,7 +535,7 @@ main {
   .about_us h2 + p {
     display: flex;
     justify-content: flex-end;
-    margin-left: 200px; }
+    padding-left: 200px; }
   .about_founder {
     flex-wrap: nowrap; }
     .about_founder img {
@@ -601,26 +595,34 @@ main {
     width: 50%; } }
 
 @media (min-width: 1025px) {
-  .about__first {
-    display: flex;
-    justify-content: flex-start; }
   main {
-    max-width: 1000px;
-    margin: 100px;
+    max-width: 1000000px;
+    margin: 0;
+    display: block; }
+  .about_first .about_us {
     display: flex;
+    justify-content: flex-end;
     flex-direction: row-reverse; }
-  #hidden {
-    visibility: visible;
-    display: inline; }
-  .shop_header_icons, .shop_header, .shop_header_right {
-    display: flex; }
-  .shop_products {
-    font-size: .8em; }
-    .shop_products .shop_header .shop_header_title {
-      width: 200px; }
-      .shop_products .shop_header .shop_header_title h3 {
-        font-size: 3em; }
-  .shop_header_icons a img {
-    padding: 0 10px; } }
+    .about_first .about_us img {
+      margin-bottom: 80px; }
+    .about_first .about_us .about_us_text {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      width: auto;
+      margin-right: 15px; }
+      .about_first .about_us .about_us_text h2 {
+        margin-left: 0; }
+      .about_first .about_us .about_us_text h2 + p {
+        padding-left: 0; }
+  .about_second {
+    display: flex;
+    justify-content: space-between; }
+    .about_second .moments_title {
+      width: 30%;
+      margin-right: 0; }
+    .about_second .key_dates {
+      width: 60%;
+      justify-content: flex-end; } }
 
 /*# sourceMappingURL=style.css.map */
