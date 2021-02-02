@@ -1,0 +1,75 @@
+.about_us{
+
+    img + p{
+        margin-left: 80px;
+    }
+
+    h2{
+       font-size: 50px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 80px;
+
+    }
+
+    h2 + p{
+        
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 160px;
+
+    }
+}
+
+.about_founder{
+
+    
+
+    img{
+        height:280px ;
+        width: 260px;
+
+        display: flex;
+        justify-content: flex-start; 
+
+    }
+    
+    blockquote{
+        display: flex;
+        justify-content: flex-end;
+
+        margin-left: 45%;
+
+    }
+
+    blockquote + p{
+        display:flex;
+        justify-content: flex-end;
+
+        margin-left: 45%;
+
+    }
+
+    p + p{
+        display:flex;
+        justify-content: flex-end;
+
+        margin-left: 45%;
+
+    }
+}
+
+.about_second{
+
+    .key_dates{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-between;
+
+        .key_date{
+            display: flex;
+            align-items: center;
+        }
+
+    }
+}
