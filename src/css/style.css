@@ -252,7 +252,7 @@ footer .footer_privacy {
       top: 40%;
       width: 80%; }
       .home_mainCollection .home_title .home_title_center h2 {
-        margin-bottom: 50px; }
+        margin-bottom: 20px; }
       .home_mainCollection .home_title .home_title_center a {
         color: white;
         border-bottom: 3px solid white; }
@@ -455,7 +455,8 @@ footer .footer_privacy {
 
 .home_banner h2 {
   text-align: center;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  margin: 30px; }
 
 .home_banner ul {
   display: flex;
@@ -726,6 +727,69 @@ footer .footer_privacy {
   footer ul li:last-child {
     display: block;
     visibility: visible; }
+  .home_mainCollection .home_title {
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative; }
+    .home_mainCollection .home_title .home_title_left {
+      margin-left: 20px;
+      flex-direction: column; }
+      .home_mainCollection .home_title .home_title_left img {
+        margin-bottom: 20px;
+        width: 20px; }
+    .home_mainCollection .home_title .home_title_center {
+      position: static;
+      margin: 0 auto; }
+    .home_mainCollection .home_title .home_title_right {
+      position: absolute;
+      bottom: 0;
+      right: 45%; }
+  .home_collection .home_collection_left div {
+    width: 30%; }
+  .home_collection .home_collection_center div {
+    width: 30%;
+    margin: 0 auto; }
+  .home_collection .home_collection_right div {
+    margin-left: 70%; }
+  .home_topSellers .home_topSellers_small img {
+    width: 30%; }
+  .home_topSellers .home_topSellers_small h3, .home_topSellers .home_topSellers_small h2 {
+    font-size: 1.5em;
+    margin: 20px 0; }
+  .home_topSellers .home_topSellers_small p {
+    margin-bottom: 20px; }
+  .home_topSellers .home_topSellers_small a {
+    border-bottom: 3px solid #222; }
+  .home_topSellers .home_topSellers_big {
+    position: relative; }
+    .home_topSellers .home_topSellers_big img {
+      width: 70%; }
+    .home_topSellers .home_topSellers_big h3, .home_topSellers .home_topSellers_big h2 {
+      font-size: 1.5em;
+      margin: 20px 0; }
+    .home_topSellers .home_topSellers_big p {
+      margin-bottom: 20px; }
+    .home_topSellers .home_topSellers_big a {
+      border-bottom: 3px solid #222; }
+    .home_topSellers .home_topSellers_big img {
+      margin-left: 20%; }
+    .home_topSellers .home_topSellers_big div {
+      position: absolute;
+      top: 50px;
+      z-index: 10; }
+  .home_newArrival .home_article_items .home_item {
+    width: 40%; }
+  .home_keepConnected {
+    display: flex;
+    justify-content: space-between; }
+  .home_latestNews_news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .home_latestNews_news .home_news_art:nth-child(1) {
+      width: 100%; }
+    .home_latestNews_news .home_news_art:nth-child(2), .home_latestNews_news .home_news_art:nth-child(3) {
+      width: 45%; }
   .product_card_images .product_SmallImages {
     margin: 10px 0;
     display: flex;
@@ -814,6 +878,32 @@ footer .footer_privacy {
     flex-direction: row; }
   footer ul {
     justify-content: space-between; }
+  .home_mainCollection .home_title .home_title_right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    margin-right: 20px; }
+    .home_mainCollection .home_title .home_title_right .home_bigText {
+      padding-top: 10px;
+      font-size: 1.3em; }
+    .home_mainCollection .home_title .home_title_right .home_separator {
+      width: 20px;
+      height: 2px;
+      background-color: #999;
+      position: relative;
+      margin-left: 110px; }
+    .home_mainCollection .home_title .home_title_right li span {
+      display: block;
+      visibility: visible; }
+    .home_mainCollection .home_title .home_title_right .home_bullet {
+      display: none;
+      visibility: hidden; }
+    .home_mainCollection .home_title .home_title_right li {
+      color: #999;
+      padding-bottom: 30px; }
+    .home_mainCollection .home_title .home_title_right li:last-child {
+      color: #222; }
   .product_card, .product_description, .products_related {
     width: 60%;
     margin: 0 auto; }
