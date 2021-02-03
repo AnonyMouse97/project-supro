@@ -1241,6 +1241,10 @@ h3 {
   .home_topSellers, .home_newArrival, .home_latestNews, .home_keepConnected {
     width: 800px;
     margin: 0 auto; }
+  .home_deal .home_deal_countdown {
+    width: 20%; }
+  .home_latestNews_news .home_news_art:nth-child(1), .home_latestNews_news .home_news_art:nth-child(2), .home_latestNews_news .home_news_art:nth-child(3) {
+    width: 30%; }
   main {
     max-width: 1000000px;
     margin: 0;
