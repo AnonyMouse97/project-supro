@@ -482,13 +482,6 @@ footer .footer_privacy {
   display: none;
   visibility: hidden; }
 
-/*body{
-
-   main{
-       padding: 0;
-    }
-    
-}*/
 .about_us img {
   width: 100%; }
 
@@ -1245,26 +1238,25 @@ h3 {
     width: 20%; }
   .home_latestNews_news .home_news_art:nth-child(1), .home_latestNews_news .home_news_art:nth-child(2), .home_latestNews_news .home_news_art:nth-child(3) {
     width: 30%; }
-  main {
-    max-width: 1000000px;
-    margin: 0;
-    display: block; }
-  .about_first .about_us {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row-reverse; }
-    .about_first .about_us img {
-      margin-bottom: 80px; }
-    .about_first .about_us .about_us_text {
+  .about_first {
+    margin-top: 100px; }
+    .about_first .about_us {
       display: flex;
-      justify-content: flex-start;
-      flex-direction: column;
-      width: auto;
-      margin-right: 15px; }
-      .about_first .about_us .about_us_text h2 {
-        margin-left: 0; }
-      .about_first .about_us .about_us_text h2 + p {
-        padding-left: 0; }
+      justify-content: flex-end;
+      flex-direction: row-reverse;
+      margin: 0 15px; }
+      .about_first .about_us img {
+        margin-bottom: 80px; }
+      .about_first .about_us .about_us_text {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: auto;
+        margin-right: 15px; }
+        .about_first .about_us .about_us_text h2 {
+          margin-left: 0; }
+        .about_first .about_us .about_us_text h2 + p {
+          padding-left: 0; }
   .about_second {
     display: flex;
     justify-content: space-between; }
@@ -1322,6 +1314,26 @@ h3 {
     justify-content: center; }
     .product_flex_container article {
       width: 150px;
-      margin: 15px; } }
+      margin: 15px; }
+  .shop_main {
+    margin-top: 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row-reverse; }
+  #hidden {
+    visibility: visible;
+    display: inline; }
+  .shop_header_icons, .shop_header, .shop_header_right {
+    display: flex; }
+  .shop_products {
+    font-size: .8em; }
+    .shop_products .shop_header .shop_header_title {
+      width: 200px; }
+      .shop_products .shop_header .shop_header_title h3 {
+        font-size: 3em; }
+  .shop_header_icons a img {
+    padding: 0 10px; } }
 
 /*# sourceMappingURL=style.css.map */

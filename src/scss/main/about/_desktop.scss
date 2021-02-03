@@ -1,17 +1,14 @@
-main{
-	max-width: 1000000px;
-	margin: 0;
-	display: block;
-	
-}
+
+
 .about_first{
 
-
+    margin-top: 100px;
 
     .about_us{
        display: flex;
        justify-content: flex-end;
-        flex-direction: row-reverse; 
+        flex-direction: row-reverse;
+        margin: 0 15px; 
         
         img{
             margin-bottom: 80px;
